@@ -1,5 +1,3 @@
-import { tslint } from '@perfective/eslint-config/tslint';
-
 export = {
     plugins: [
         'jest-dom',
@@ -10,6 +8,7 @@ export = {
     ],
     extends: [
         '@perfective/eslint-config',
+        './rules/eslint-config',
         './rules/jest-dom',
         './rules/jsx-a11y',
         './rules/react',
@@ -43,29 +42,5 @@ export = {
         ],
         linkComponents: [],
     },
-    rules: {
-        // Legacy rules for TSLint
-        '@typescript-eslint/tslint/config': ['warn', {
-            rules: {
-                ...tslint,
-            },
-        }],
-        '@typescript-eslint/indent': ['warn', 4, {
-            // eslint-disable-next-line @typescript-eslint/naming-convention -- option name
-            SwitchCase: 1,
-            // Use 'react/jsx-indent-props' instead
-            ignoredNodes: [
-                'JSXAttribute',
-            ],
-        }],
-        // TODO: Resolve duplication/override problem
-        'unicorn/prevent-abbreviations': ['warn', {
-            replacements: {
-                prop: false,
-                props: false,
-                ref: false,
-                refs: false,
-            },
-        }],
-    },
+    rules: {},
 };
