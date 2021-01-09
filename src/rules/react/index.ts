@@ -1,7 +1,6 @@
 export = {
     rules: {
         'react/boolean-prop-naming': ['error', {
-            // eslint-disable-next-line unicorn/prevent-abbreviations -- React "prop"
             propTypeNames: ['bool'],
             rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
             validateNested: true,
@@ -127,7 +126,6 @@ export = {
             ignoreCase: false,
             callbacksLast: true,
             requiredFirst: true,
-            // eslint-disable-next-line unicorn/prevent-abbreviations -- React "prop"
             sortShapeProp: true,
             noSortAlphabetically: false,
         }],

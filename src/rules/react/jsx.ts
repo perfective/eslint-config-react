@@ -9,7 +9,6 @@ export = {
         'react/jsx-closing-tag-location': 'warn',
         // See the react/jsx-no-comment-textnodes and react/jsx-no-literals rules
         'react/jsx-curly-brace-presence': ['warn', {
-            // eslint-disable-next-line unicorn/prevent-abbreviations -- React "props"
             props: 'never',
             children: 'always',
         }],
@@ -32,7 +31,6 @@ export = {
         'react/jsx-fragments': ['warn', 'element'],
         'react/jsx-handler-names': ['error', {
             eventHandlerPrefix: 'handle',
-            // eslint-disable-next-line unicorn/prevent-abbreviations -- React "prop"
             eventHandlerPropPrefix: 'on',
             checkLocalVariables: true,
             checkInlineFunction: true,
@@ -59,7 +57,6 @@ export = {
         'react/jsx-no-bind': ['error', {
             // eslint-disable-next-line @typescript-eslint/naming-convention -- configuration property
             ignoreDOMComponents: false,
-            // eslint-disable-next-line unicorn/prevent-abbreviations -- React "ref"
             ignoreRefs: false,
             allowArrowFunctions: false,
             allowFunctions: false,
@@ -73,7 +70,6 @@ export = {
         'react/jsx-no-literals': ['error', {
             noStrings: false,
             allowedStrings: [],
-            // eslint-disable-next-line unicorn/prevent-abbreviations -- React "props"
             ignoreProps: true,
             noAttributeStrings: false,
         }],
@@ -130,7 +126,6 @@ export = {
             arrow: 'parens-new-line',
             condition: 'parens-new-line',
             logical: 'parens-new-line',
-            // eslint-disable-next-line unicorn/prevent-abbreviations -- React "props"
             prop: 'parens-new-line',
         }],
     },
