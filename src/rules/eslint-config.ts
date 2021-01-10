@@ -1,6 +1,8 @@
 /**
  * Rules defined in the @perfective/eslint-config that need to be overridden.
  */
+import { unicornPreventAbbreviations } from '@perfective/eslint-config/rules';
+
 export = {
     rules: {
         '@typescript-eslint/indent': ['warn', 4, {
@@ -11,13 +13,11 @@ export = {
                 'JSXAttribute',
             ],
         }],
-        'unicorn/prevent-abbreviations': ['warn', {
-            replacements: {
-                prop: false,
-                props: false,
-                ref: false,
-                refs: false,
-            },
-        }],
+        'unicorn/prevent-abbreviations': ['warn', unicornPreventAbbreviations({
+            prop: false,
+            props: false,
+            ref: false,
+            refs: false,
+        })],
     },
 };
