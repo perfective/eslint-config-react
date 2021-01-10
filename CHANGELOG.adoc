@@ -2,7 +2,7 @@
 
 == v0.1.0 (next)
 
-* Extended `@perfective/eslint-config` (`0.11.0-alpha`);
+* Extended `@perfective/eslint-config` (`0.11.0-beta`);
 * Added `eslint-plugin-react` support (`7.21.5`);
 * Added `eslint-plugin-react-hooks` support (`4.2.0`);
 * Added `eslint-plugin-jsx-a11y` support (`6.4.1`);

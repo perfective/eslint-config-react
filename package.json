@@ -1,6 +1,6 @@
 {
     "name": "@perfective/eslint-config-react",
-    "version": "0.1.0-alpha.4",
+    "version": "0.1.0-beta",
     "description": "ESLint shareable rules configuration for React",
     "keywords": [
         "react",
