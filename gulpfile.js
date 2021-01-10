@@ -11,8 +11,6 @@ function copyPackageJson() {
             files: [
                 '**/*.js',
             ],
-        }, {}, {
-            arrayMerge: (_dist, source, _options) => source,
         }))
         .pipe(dest('./dist/'));
 }
