@@ -31,13 +31,17 @@ describe(typescriptEslintNamingConvention, () => {
                     modifiers: ['const'],
                     format: ['strictCamelCase', 'StrictPascalCase'],
                 },
+                {
+                    selector: ['function'],
+                    format: ['strictCamelCase', 'StrictPascalCase'],
+                },
             ] as TypescriptEslintNamingConvention[]);
     });
 
     it('allows to extend config for the @typescript-eslint/naming-convention rule', () => {
         expect(typescriptEslintNamingConvention([
             {
-                selector: ['function'],
+                selector: ['interface'],
                 format: ['strictCamelCase', 'StrictPascalCase'],
             },
         ]))
@@ -69,6 +73,10 @@ describe(typescriptEslintNamingConvention, () => {
                 },
                 {
                     selector: ['function'],
+                    format: ['strictCamelCase', 'StrictPascalCase'],
+                },
+                {
+                    selector: ['interface'],
                     format: ['strictCamelCase', 'StrictPascalCase'],
                 },
             ] as TypescriptEslintNamingConvention[]);

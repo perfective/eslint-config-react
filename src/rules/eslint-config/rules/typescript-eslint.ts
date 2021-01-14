@@ -13,5 +13,10 @@ export function typescriptEslintNamingConvention(
             // Allow StrictPascalCase for elements created with React.createContext()
             format: ['strictCamelCase', 'StrictPascalCase'],
         } as TypescriptEslintNamingConvention,
+        {
+            selector: ['function'],
+            // Allow StrictPascalCase for JSX elements
+            format: ['strictCamelCase', 'StrictPascalCase'],
+        } as TypescriptEslintNamingConvention,
     ].concat(extensions));
 }
