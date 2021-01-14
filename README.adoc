@@ -68,6 +68,17 @@ for a less strict configuration.
 +
 . Configure your `.eslintignore` file.
 
+
+== Rules Configuration Extension Functions
+
+This package re-exports
+https://github.com/perfective/eslint-config#rules-configuration-extension-functions[rules configuration functions],
+including overrides with additional React customizations:
+
+* `typescriptEslintNamingConvention(extensions)`;
+* `unicornPreventAbbreviations(replacements, options)`.
+
+
 == Roadmap
 
 * Research more ESLint React plugins:
