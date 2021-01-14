@@ -29,7 +29,7 @@
         "lint:eslint": "eslint --fix --ext .ts ./"
     },
     "dependencies": {
-        "@perfective/eslint-config": "^0.11.0-beta"
+        "@perfective/eslint-config": "^0.11.0"
     },
     "peerDependencies": {
         "eslint-plugin-jsx-a11y": "^6.4.1",
