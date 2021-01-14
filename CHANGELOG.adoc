@@ -1,5 +1,12 @@
 = Changelog
 
+== v0.1.1
+
+* Fixed: allowed `StrictPascalCase` for JSX elements.
+* Updated `@perfective/eslint-config` (`0.11.1`):
+** Re-exported `UnicornPreventAbbreviationReplacements`.
+
+
 == v0.1.0
 
 * Extended `@perfective/eslint-config` (`0.11.0`);
