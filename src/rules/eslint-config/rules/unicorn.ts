@@ -1,10 +1,11 @@
 import {
+    UnicornPreventAbbreviationReplacements,
     UnicornPreventAbbreviations,
     unicornPreventAbbreviations as unicornPreventAbbreviationsDefaults,
 } from '@perfective/eslint-config/rules';
 
 export function unicornPreventAbbreviations(
-    replacements: Record<string, boolean | Record<string, boolean>> = {},
+    replacements: UnicornPreventAbbreviationReplacements = {},
     options: Partial<Pick<UnicornPreventAbbreviations, 'checkProperties'>> = {},
 ): UnicornPreventAbbreviations {
     return unicornPreventAbbreviationsDefaults({

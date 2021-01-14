@@ -11,6 +11,7 @@ import {
     TypescriptEslintNamingConventionUnderscore,
     TypescriptEslintTslintConfig,
     typescriptEslintTslintConfig,
+    UnicornPreventAbbreviationReplacements,
     UnicornPreventAbbreviations,
 } from '@perfective/eslint-config/rules';
 
@@ -31,6 +32,7 @@ export {
     TypescriptEslintNamingConventionUnderscore,
     TypescriptEslintTslintConfig,
     typescriptEslintTslintConfig,
+    UnicornPreventAbbreviationReplacements,
     UnicornPreventAbbreviations,
     unicornPreventAbbreviations,
 };
