@@ -10,9 +10,7 @@ This package extends the
 
 * `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`;
 * `link:https://www.npmjs.com/package/eslint-plugin-react-hooks[eslint-plugin-react-hooks]`;
-* `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y[eslint-plugin-jsx-a11y]`;
-* `link:https://github.com/testing-library/eslint-plugin-jest-dom[eslint-plugin-jest-dom]`;
-* `link:https://github.com/testing-library/eslint-plugin-testing-library[eslint-plugin-testing-library]`.
+* `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y[eslint-plugin-jsx-a11y]`.
 
 
 == Setup
@@ -29,6 +27,7 @@ npm install --save-dev \
     eslint \
     eslint-import-resolver-typescript \
     eslint-plugin-array-func \
+    eslint-plugin-cypress \
     eslint-plugin-deprecation \
     eslint-plugin-eslint-comments \
     eslint-plugin-import \
