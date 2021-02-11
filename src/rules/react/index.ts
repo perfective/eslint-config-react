@@ -1,4 +1,10 @@
 export = {
+    plugins: [
+        'react',
+    ],
+    extends: [
+        './jsx',
+    ],
     rules: {
         'react/boolean-prop-naming': ['error', {
             propTypeNames: ['bool'],

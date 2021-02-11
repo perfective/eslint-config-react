@@ -1,9 +1,9 @@
-/**
- * Rules defined in the @perfective/eslint-config that need to be overridden.
- */
 import { typescriptEslintNamingConvention } from './rules/typescript-eslint';
 import { unicornPreventAbbreviations } from './rules/unicorn';
 
+/**
+ * Rules defined in the @perfective/eslint-config that need to be overridden.
+ */
 export = {
     rules: {
         '@typescript-eslint/indent': ['warn', 4, {

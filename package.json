@@ -27,7 +27,7 @@
         "clean": "rimraf *.tsbuildinfo ./dist",
         "dist": "npm run build:clean && gulp",
         "lint": "npm run lint:eslint",
-        "lint:eslint": "eslint --fix --ext .ts ./"
+        "lint:eslint": "eslint --fix ./"
     },
     "dependencies": {
         "@perfective/eslint-config": "^0.12.0-alpha"

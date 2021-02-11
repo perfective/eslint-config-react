@@ -6,12 +6,19 @@ export = {
     extends: [
         './',
         '@perfective/eslint-config/community',
-        './rules/eslint-config',
     ],
-    rules: {
-        'react/jsx-indent-props': ['warn', 0],
-        'unicorn/prevent-abbreviations': ['warn', unicornPreventAbbreviations({}, {
-            checkProperties: false,
-        })],
-    },
+    overrides: [
+        {
+            files: ['*.ts', '*.tsx'],
+            extends: [
+                './rules/eslint-config',
+            ],
+            rules: {
+                'react/jsx-indent-props': ['warn', 0],
+                'unicorn/prevent-abbreviations': ['warn', unicornPreventAbbreviations({}, {
+                    checkProperties: false,
+                })],
+            },
+        },
+    ],
 };
