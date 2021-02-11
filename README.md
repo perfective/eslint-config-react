@@ -10,6 +10,7 @@ This package extends the
 
 * [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react);
 * [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks);
+* [`eslint-plugin-react-hooks-ssr`](https://github.com/correttojs/eslint-plugin-react-hooks-ssr);
 * [`eslint-plugin-react-perf`](https://github.com/cvazac/eslint-plugin-react-perf);
 * [`eslint-plugin-jsx-a11y`](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 
@@ -41,6 +42,7 @@ npm install --save-dev \
     eslint-plugin-promise \
     eslint-plugin-react \
     eslint-plugin-react-hooks \
+    eslint-plugin-react-hooks-ssr \
     eslint-plugin-react-perf \
     eslint-plugin-rxjs \
     eslint-plugin-simple-import-sort \
@@ -63,7 +65,6 @@ module.exports = {
 
 * Research more ESLint React plugins:
     * [`eslint-plugin-react-redux`](https://github.com/DianaSuvorova/eslint-plugin-react-redux);
-    * [`eslint-plugin-react-hooks-ssr`](https://github.com/correttojs/eslint-plugin-react-hooks-ssr);
     * [`eslint-plugin-react-rxjs`](https://www.npmjs.com/package/eslint-plugin-react-rxjs).
 
 Read the [full documentation](https://github.com/perfective/estlint-config-react/blob/master/README.adoc)
