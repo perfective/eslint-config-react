@@ -60,12 +60,3 @@ module.exports = {
 ```
 
 3. Configure your `.eslintignore` file.
-
-## Roadmap
-
-* Research more ESLint React plugins:
-    * [`eslint-plugin-react-redux`](https://github.com/DianaSuvorova/eslint-plugin-react-redux);
-    * [`eslint-plugin-react-rxjs`](https://www.npmjs.com/package/eslint-plugin-react-rxjs).
-
-Read the [full documentation](https://github.com/perfective/estlint-config-react/blob/master/README.adoc)
-in the repository.

@@ -1,5 +1,14 @@
 = Changelog
 
+== v0.2.0 (next)
+
+* Updated `@perfective/eslint-config` to `0.12.0`.
+* Split configuration based on file extensions.
+* Added `eslint-plugin-react-perf` support (`3.3.0`).
+* Added `eslint-plugin-react-hooks-ssr` support (`0.1.5`).
+* Updated `eslint-plugin-react` (`7.22.0`).
+
+
 == v0.1.1
 
 * Fixed: allowed `StrictPascalCase` for JSX elements.

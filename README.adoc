@@ -84,6 +84,4 @@ including overrides with additional React customizations:
 
 == Roadmap
 
-* Research more ESLint React plugins:
-** `link:https://github.com/DianaSuvorova/eslint-plugin-react-redux[eslint-plugin-react-redux]`;
-** `link:https://www.npmjs.com/package/eslint-plugin-react-rxjs[eslint-plugin-react-rxjs]`.
+* Research more ESLint React plugins.
