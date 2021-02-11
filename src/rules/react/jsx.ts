@@ -40,9 +40,13 @@ export = {
             checkAttributes: true,
             indentLogicalExpressions: true,
         }],
-        'react/jsx-indent-props': ['warn', 1],
+        'react/jsx-indent-props': ['warn', {
+            indentMode: 1,
+            ignoreTernaryOperator: false,
+        }],
         'react/jsx-key': ['error', {
             checkFragmentShorthand: true,
+            checkKeyMustBeforeSpread: true,
         }],
         // See the 'max-depth' rule
         'react/jsx-max-depth': ['error', {
@@ -52,8 +56,7 @@ export = {
             maximum: 1,
             when: 'always',
         }],
-        // TODO: Enable in the next version
-        // 'react/jsx-newline': 'error',
+        'react/jsx-newline': 'off',
         'react/jsx-no-bind': ['error', {
             // eslint-disable-next-line @typescript-eslint/naming-convention -- configuration property
             ignoreDOMComponents: false,
@@ -62,8 +65,7 @@ export = {
             allowFunctions: false,
         }],
         'react/jsx-no-comment-textnodes': 'error',
-        // TODO: Enable in the next version
-        // 'react/jsx-no-constructed-context-values': 'error',
+        'react/jsx-no-constructed-context-values': 'error',
         'react/jsx-no-duplicate-props': ['error', {
             ignoreCase: true,
         }],
@@ -77,6 +79,7 @@ export = {
         'react/jsx-no-target-blank': ['error', {
             allowReferrer: false,
             enforceDynamicLinks: 'always',
+            warnOnSpreadAttributes: true,
         }],
         'react/jsx-no-undef': ['error', {
             allowGlobals: false,
