@@ -10,6 +10,7 @@ This package extends the
 
 * `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`;
 * `link:https://www.npmjs.com/package/eslint-plugin-react-hooks[eslint-plugin-react-hooks]`;
+* `link:https://github.com/cvazac/eslint-plugin-react-perf[eslint-plugin-react-perf]`;
 * `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y[eslint-plugin-jsx-a11y]`.
 
 
@@ -41,6 +42,7 @@ npm install --save-dev \
     eslint-plugin-promise \
     eslint-plugin-react \
     eslint-plugin-react-hooks \
+    eslint-plugin-react-perf \
     eslint-plugin-rxjs \
     eslint-plugin-simple-import-sort \
     eslint-plugin-sonarjs \
@@ -82,6 +84,5 @@ including overrides with additional React customizations:
 
 * Research more ESLint React plugins:
 ** `link:https://github.com/DianaSuvorova/eslint-plugin-react-redux[eslint-plugin-react-redux]`;
-** `link:https://github.com/cvazac/eslint-plugin-react-perf[eslint-plugin-react-perf]`;
 ** `link:https://github.com/correttojs/eslint-plugin-react-hooks-ssr[eslint-plugin-react-hooks-ssr]`;
 ** `link:https://www.npmjs.com/package/eslint-plugin-react-rxjs[eslint-plugin-react-rxjs]`.

@@ -24,6 +24,7 @@ export = {
                 './rules/jsx-a11y',
                 './rules/react',
                 './rules/react-hooks',
+                './rules/react-perf',
             ],
             settings: {
                 react: {
