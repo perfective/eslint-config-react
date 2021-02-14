@@ -40,5 +40,12 @@ export = {
                 linkComponents: [],
             },
         },
+        {
+            files: ['*.tsx', '*.jsx'],
+            rules: {
+                // Conflicts with func-style inside functional components
+                'prefer-arrow/prefer-arrow-functions': 'off',
+            },
+        },
     ],
 };
