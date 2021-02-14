@@ -15,12 +15,6 @@ export = {
             ],
         }],
         '@typescript-eslint/naming-convention': ['error', ...typescriptEslintNamingConvention()],
-        'unicorn/no-keyword-prefix': ['error', {
-            // "class" prefix is used in React "className"
-            blacklist: [],
-            checkProperties: true,
-            onlyCamelCase: false,
-        }],
         'unicorn/prevent-abbreviations': ['warn', unicornPreventAbbreviations()],
     },
 };

@@ -7,48 +7,18 @@ describe(unicornPreventAbbreviations, () => {
         expect(unicornPreventAbbreviations())
             .toStrictEqual({
                 replacements: {
-                    args: false,
-                    db: false,
-                    e2e: false,
-                    env: false,
-                    i: false,
-                    j: false,
-                    params: false,
-                    prop: false,
-                    props: false,
-                    ref: false,
-                    refs: false,
-                },
-                extendDefaultReplacements: true,
-                whitelist: {},
-                extendDefaultWhitelist: true,
-                checkDefaultAndNamespaceImports: 'internal',
-                checkShorthandImports: 'internal',
-                checkShorthandProperties: false,
-                checkProperties: true,
-                checkVariables: true,
-                checkFilenames: true,
-                ignore: [
-                    /e2e/u,
-                ],
-            } as UnicornPreventAbbreviations);
-    });
-
-    it('allows to extend the unicorn/prevent-abbreviations rule', () => {
-        expect(unicornPreventAbbreviations({
-            arg: false,
-        }, {
-            checkProperties: false,
-        }))
-            .toStrictEqual({
-                replacements: {
                     arg: false,
                     args: false,
                     db: false,
+                    doc: false,
+                    docs: false,
                     e2e: false,
                     env: false,
                     i: false,
                     j: false,
+                    lib: false,
+                    libs: false,
+                    param: false,
                     params: false,
                     prop: false,
                     props: false,
@@ -62,6 +32,48 @@ describe(unicornPreventAbbreviations, () => {
                 checkShorthandImports: 'internal',
                 checkShorthandProperties: false,
                 checkProperties: false,
+                checkVariables: true,
+                checkFilenames: true,
+                ignore: [
+                    /e2e/u,
+                ],
+            } as UnicornPreventAbbreviations);
+    });
+
+    it('allows to extend the unicorn/prevent-abbreviations rule', () => {
+        expect(unicornPreventAbbreviations({
+            dbs: false,
+        }, {
+            checkProperties: true,
+        }))
+            .toStrictEqual({
+                replacements: {
+                    arg: false,
+                    args: false,
+                    db: false,
+                    dbs: false,
+                    doc: false,
+                    docs: false,
+                    e2e: false,
+                    env: false,
+                    i: false,
+                    j: false,
+                    lib: false,
+                    libs: false,
+                    param: false,
+                    params: false,
+                    prop: false,
+                    props: false,
+                    ref: false,
+                    refs: false,
+                },
+                extendDefaultReplacements: true,
+                whitelist: {},
+                extendDefaultWhitelist: true,
+                checkDefaultAndNamespaceImports: 'internal',
+                checkShorthandImports: 'internal',
+                checkShorthandProperties: false,
+                checkProperties: true,
                 checkVariables: true,
                 checkFilenames: true,
                 ignore: [

@@ -96,7 +96,6 @@ export = {
         'react/jsx-props-no-spreading': ['error', {
             html: 'enforce',
             custom: 'enforce',
-            // TBD: Community config candidate
             explicitSpread: 'enforce',
             exceptions: [],
         }],

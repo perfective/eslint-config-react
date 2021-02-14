@@ -61,15 +61,6 @@ module.exports = {
     extends: ['@perfective/eslint-config-react'],
 }
 ----
-+
-[NOTE]
-====
-Use `@perfective/eslint-config-react/community`,
-based on the `@perfective/eslint-config/community`,
-for a less strict configuration.
-====
-+
-. Configure your `.eslintignore` file.
 
 
 == Rules Configuration Extension Functions
