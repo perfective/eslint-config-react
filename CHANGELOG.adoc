@@ -3,6 +3,7 @@
 == v0.2.0 (next)
 
 * Updated `@perfective/eslint-config` to `0.12.0`.
+** Removed `@perfective/eslint-config-react/community` config.
 * Split configuration based on file extensions.
 * Added `eslint-plugin-react-perf` support (`3.3.0`).
 * Added `eslint-plugin-react-hooks-ssr` support (`0.1.5`).

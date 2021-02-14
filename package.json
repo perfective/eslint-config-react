@@ -1,6 +1,6 @@
 {
     "name": "@perfective/eslint-config-react",
-    "version": "0.2.0-alpha",
+    "version": "0.2.0-beta",
     "description": "ESLint shareable rules configuration for React",
     "keywords": [
         "react",
@@ -34,7 +34,7 @@
     },
     "peerDependencies": {
         "eslint-plugin-jsx-a11y": "^6.4.1",
-        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react": "^7.22.0",
         "eslint-plugin-react-hooks": "^4.2.0",
         "eslint-plugin-react-hooks-ssr": "^0.1.5",
         "eslint-plugin-react-perf": "^3.3.0"
