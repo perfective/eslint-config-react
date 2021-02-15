@@ -65,7 +65,8 @@ export = {
             allowFunctions: false,
         }],
         'react/jsx-no-comment-textnodes': 'error',
-        'react/jsx-no-constructed-context-values': 'error',
+        // FIX: This rule has been fixed but yet unpublished.
+        'react/jsx-no-constructed-context-values': 'off',
         'react/jsx-no-duplicate-props': ['error', {
             ignoreCase: true,
         }],
