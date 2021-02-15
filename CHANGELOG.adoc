@@ -8,6 +8,9 @@
 * Added `eslint-plugin-react-perf` support (`3.3.0`).
 * Added `eslint-plugin-react-hooks-ssr` support (`0.1.5`).
 * Updated `eslint-plugin-react` (`7.22.0`).
+* Changed rules:
+** Disabled `prefer-arrow/prefer-arrow-functions` in React components;
+** Disabled `react/jsx-no-constructed-context-values` until its bugfix is available.
 
 
 == v0.1.1
