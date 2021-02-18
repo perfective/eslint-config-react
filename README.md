@@ -22,6 +22,7 @@ This package extends the
 ```bash
 npm install --save-dev \
     @perfective/eslint-config-react \
+    @babel/eslint-parser \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/eslint-plugin-tslint \
     @typescript-eslint/parser \
