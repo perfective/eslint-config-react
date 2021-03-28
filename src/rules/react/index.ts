@@ -70,6 +70,9 @@ export = {
         }],
         'react/no-unknown-property': 'warn',
         'react/no-unsafe': 'error',
+        'react/no-unstable-nested-components': ['error', {
+            allowAsProps: false,
+        }],
         // See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md#known-issueslimitations
         'react/no-unused-prop-types': 'error',
         'react/no-unused-state': 'error',
