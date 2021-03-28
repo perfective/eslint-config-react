@@ -21,13 +21,9 @@
     },
     "license": "MIT",
     "scripts": {
-        "build": "tsc --project tsconfig.build.json",
-        "build:clean": "npm run clean && npm run build",
-        "test": "jest",
-        "clean": "rimraf *.tsbuildinfo ./dist",
-        "dist": "npm run build:clean && gulp",
-        "lint": "npm run lint:eslint",
-        "lint:eslint": "eslint --fix ./"
+        "dist": "gulp",
+        "lint": "eslint --fix ./",
+        "test": "jest"
     },
     "dependencies": {
         "@perfective/eslint-config": "^0.13.0-beta.3"
