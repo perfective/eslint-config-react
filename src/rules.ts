@@ -1,4 +1,9 @@
 import {
+    cypressImportNoExtraneousDependencies,
+    ImportNoExtraneousDependencies,
+    importNoExtraneousDependencies,
+    jestImportNoExtraneousDependencies,
+    jsImportNoExtraneousDependencies,
     SimpleImportSortImports,
     simpleImportSortImports,
     TsLintRule,
@@ -19,6 +24,11 @@ import { typescriptEslintNamingConvention } from './rules/eslint-config/rules/ty
 import { unicornPreventAbbreviations } from './rules/eslint-config/rules/unicorn';
 
 export {
+    cypressImportNoExtraneousDependencies,
+    ImportNoExtraneousDependencies,
+    importNoExtraneousDependencies,
+    jestImportNoExtraneousDependencies,
+    jsImportNoExtraneousDependencies,
     SimpleImportSortImports,
     simpleImportSortImports,
     TsLintRule,
