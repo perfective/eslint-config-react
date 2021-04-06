@@ -1,12 +1,13 @@
 = Changelog
 
-== v0.3.0 (next)
+== v0.3.0
 
 * Updated `@perfective/eslint-config` to `0.13.0`.
 * Updated `eslint-plugin-react` to `7.23.1`:
 ** Enabled `react/jsx-no-constructed-context-values`;
 ** Enabled `react/no-unstable-nested-components`;
 ** Set `react/jsx-no-target-blank` to _warning_ as it is now fixable.
+* Initialize rules documentation.
 
 == v0.2.0
 
