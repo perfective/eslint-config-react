@@ -1,0 +1,20 @@
+= `react-hooks`
+
+The `link:https://www.npmjs.com/package/eslint-plugin-react-hooks[eslint-plugin-react-hooks]`
+enforces the React https://reactjs.org/docs/hooks-rules.html[Rules of Hooks].
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixed | Config
+
+| `react-hooks/rules-of-hooks`
+| Yes
+|
+| Error
+
+| `react-hooks/exhaustive-deps`
+| Yes
+|
+| Warning
+
+|===

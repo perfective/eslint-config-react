@@ -3,3 +3,5 @@
 :toclevels: 2
 :icons: font
 :sourcedir: ./
+
+include::rules/index.adoc[leveloffset=+1]

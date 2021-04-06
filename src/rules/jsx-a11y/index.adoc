@@ -1,0 +1,180 @@
+= `jsx-a11y`
+
+The `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y[eslint-plugin-jsx-a11y]` provides
+accessibility linting rules for JSX elements.
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixed | Config
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md[jsx-a11y/accessible-emoji]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/alt-text.md[jsx-a11y/alt-text]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md[jsx-a11y/anchor-has-content]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md[jsx-a11y/anchor-is-valid]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-activedescendant-has-tabindex.md[jsx-a11y/aria-activedescendant-has-tabindex]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-props.md[jsx-a11y/aria-props]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-proptypes.md[jsx-a11y/aria-proptypes]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-role.md[jsx-a11y/aria-role]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-unsupported-elements.md[jsx-a11y/aria-unsupported-elements]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/autocomplete-valid.md[jsx-a11y/autocomplete-valid]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/click-events-have-key-events.md[jsx-a11y/click-events-have-key-events]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/heading-has-content.md[jsx-a11y/heading-has-content]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/html-has-lang.md[jsx-a11y/html-has-lang]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/iframe-has-title.md[jsx-a11y/iframe-has-title]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-redundant-alt.md[jsx-a11y/img-redundant-alt]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/interactive-supports-focus.md[jsx-a11y/interactive-supports-focus]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md[jsx-a11y/label-has-associated-control]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md[jsx-a11y/lang]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/media-has-caption.md[jsx-a11y/media-has-caption]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/mouse-events-have-key-events.md[jsx-a11y/mouse-events-have-key-events]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-access-key.md[jsx-a11y/no-access-key]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-autofocus.md[jsx-a11y/no-autofocus]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-distracting-elements.md[jsx-a11y/no-distracting-elements]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-interactive-element-to-noninteractive-role.md[jsx-a11y/no-interactive-element-to-noninteractive-role]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-interactions.md[jsx-a11y/no-noninteractive-element-interactions]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-element-to-interactive-role.md[jsx-a11y/no-noninteractive-element-to-interactive-role]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-noninteractive-tabindex.md[jsx-a11y/no-noninteractive-tabindex]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-onchange.md[jsx-a11y/no-onchange]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-redundant-roles.md[jsx-a11y/no-redundant-roles]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md[jsx-a11y/no-static-element-interactions]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/role-has-required-aria-props.md[jsx-a11y/role-has-required-aria-props]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/role-supports-aria-props.md[jsx-a11y/role-supports-aria-props]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/scope.md[jsx-a11y/scope]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/tabindex-no-positive.md[jsx-a11y/tabindex-no-positive]`
+| Yes
+|
+| Error
+
+|===

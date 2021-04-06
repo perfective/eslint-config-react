@@ -1,0 +1,25 @@
+= `eslint-config`
+
+Changes added to the `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+for compatibility with React.
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixed | Config
+
+| `@typescript-eslint/indent`
+|
+|
+| Warning
+
+| `@typescript-eslint/naming-convention`
+|
+|
+| Error
+
+| `unicorn/prevent-abbreviations`
+|
+|
+| Warning
+
+|===

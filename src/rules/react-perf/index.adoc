@@ -1,0 +1,31 @@
+= `react-perf`
+
+The `link:https://github.com/cvazac/eslint-plugin-react-perf[eslint-plugin-react-perf]` provides
+https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f[performance-minded]
+React linting rules.
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixed | Config
+
+| `link:https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-jsx-as-prop.md[react-perf/jsx-no-jsx-as-prop]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-array-as-prop.md[react-perf/jsx-no-new-array-as-prop]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-function-as-prop.md[react-perf/jsx-no-new-function-as-prop]`
+| Yes
+|
+| Error
+
+| `link:https://github.com/cvazac/eslint-plugin-react-perf/blob/master/docs/rules/jsx-no-new-object-as-prop.md[react-perf/jsx-no-new-object-as-prop]`
+| Yes
+|
+| Error
+
+|===
