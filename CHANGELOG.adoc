@@ -1,5 +1,11 @@
 = Changelog
 
+== v0.4.0 (next)
+
+* Updated `@perfective/eslint-config` to `0.14.0`.
+* Bumped `eslint-plugin-react` to `7.23.2`.
+
+
 == v0.3.0
 
 * Updated `@perfective/eslint-config` to `0.13.0`.
@@ -8,6 +14,7 @@
 ** Enabled `react/no-unstable-nested-components`;
 ** Set `react/jsx-no-target-blank` to _warning_ as it is now fixable.
 * Initialize rules documentation.
+
 
 == v0.2.0
 
