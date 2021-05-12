@@ -47,5 +47,13 @@ export = {
                 'prefer-arrow/prefer-arrow-functions': 'off',
             },
         },
+        {
+            // Default extensions supported by Jest (/\.(spec|test)\.[jt]sx?$/)
+            files: ['*.@(spec|test).[jt]s?(x)'],
+            rules: {
+                // The act() function is availably only in testing-library/react
+                'testing-library/no-unnecessary-act': 'error',
+            },
+        },
     ],
 };
