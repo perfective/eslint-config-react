@@ -8,12 +8,11 @@ This package extends the
 
 `@perfective/eslint-config-react` uses the following ESLint plugins:
 
-* [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react);
-* [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks);
-* [`eslint-plugin-react-hooks-ssr`](https://github.com/correttojs/eslint-plugin-react-hooks-ssr);
-* [`eslint-plugin-react-perf`](https://github.com/cvazac/eslint-plugin-react-perf);
-* [`eslint-plugin-jsx-a11y`](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
-
+-   [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react);
+-   [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks);
+-   [`eslint-plugin-react-hooks-ssr`](https://github.com/correttojs/eslint-plugin-react-hooks-ssr);
+-   [`eslint-plugin-react-perf`](https://github.com/cvazac/eslint-plugin-react-perf);
+-   [`eslint-plugin-jsx-a11y`](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 
 ## Setup
 
@@ -54,10 +53,11 @@ npm install --save-dev \
 ```
 
 2. Require the configuration in your root `.eslintrc.js` or `.eslintrc.json`.
+
 ```js
 module.exports = {
     extends: ['@perfective/eslint-config-react'],
-}
+};
 ```
 
 3. Configure your `.eslintignore` file.
