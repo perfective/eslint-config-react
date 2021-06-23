@@ -1,8 +1,8 @@
 = Changelog
 
-== v0.5.0 (next)
+== v0.5.0
 
-* Updated `@perfective/eslint-config` to `0.15.0-beta.1`;
+* Updated `@perfective/eslint-config` to `0.15.0`;
 * Updated `eslint-plugin-react` to `7.24.0`.
 
 
