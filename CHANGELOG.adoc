@@ -1,5 +1,14 @@
 = Changelog
 
+== v0.6.0-alpha
+
+* Updated `@perfective/eslint-config` to `0.16.0-alpha`.
++
+* Updated `eslint-plugin-react` to `7.25.0`:
+** Enabled `react/jsx-no-target-blank` for forms;
+** Allowed expressions in `react/jsx-no-useless-fragment`.
+
+
 == v0.5.0
 
 * Updated `@perfective/eslint-config` to `0.15.0`;
