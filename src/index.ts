@@ -51,8 +51,10 @@ export = {
             // Default extensions supported by Jest (/\.(spec|test)\.[jt]sx?$/)
             files: ['*.@(spec|test).[jt]s?(x)'],
             rules: {
-                // The act() function is availably only in testing-library/react
-                'testing-library/no-unnecessary-act': 'error',
+                // The act() function is available only in testing-library/react
+                'testing-library/no-unnecessary-act': ['error', {
+                    isStrict: true,
+                }],
             },
         },
     ],
