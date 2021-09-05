@@ -79,17 +79,22 @@ export = {
         'react/jsx-no-target-blank': ['warn', {
             allowReferrer: false,
             enforceDynamicLinks: 'always',
+            forms: true,
+            links: true,
             warnOnSpreadAttributes: true,
         }],
         'react/jsx-no-undef': ['error', {
             allowGlobals: false,
         }],
-        'react/jsx-no-useless-fragment': 'warn',
+        'react/jsx-no-useless-fragment': ['warn', {
+            allowExpressions: true,
+        }],
         'react/jsx-one-expression-per-line': ['warn', {
             allow: 'single-child',
         }],
         'react/jsx-pascal-case': ['error', {
             allowAllCaps: false,
+            allowLeadingUnderscore: false,
             allowNamespace: false,
             ignore: [],
         }],

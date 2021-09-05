@@ -44,7 +44,9 @@ export = {
         'react/no-access-state-in-setstate': 'error',
         'react/no-adjacent-inline-elements': 'error',
         'react/no-array-index-key': 'error',
-        'react/no-children-prop': 'error',
+        'react/no-children-prop': ['error', {
+            allowFunctions: false,
+        }],
         'react/no-danger': 'error',
         'react/no-danger-with-children': 'error',
         'react/no-deprecated': 'error',
@@ -78,6 +80,8 @@ export = {
         'react/no-unused-state': 'error',
         'react/no-will-update-set-state': ['error', 'disallow-in-func'],
         'react/prefer-es6-class': ['error', 'always'],
+        // This rule is for PropTypes users
+        'react/prefer-exact-props': 'off',
         // NOTE: this rule work with Flow, not TypeScript
         'react/prefer-read-only-props': 'warn',
         // TBD: consider using this rule

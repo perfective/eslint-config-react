@@ -199,6 +199,12 @@ The `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`
 |
 | Error
 
+| `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-exact-props.md[react/prefer-exact-props]`
+|
+|
+| Off
+4+| This rule should be enabled if you use `link:https://reactjs.org/docs/typechecking-with-proptypes.html[PropTypes]`
+
 | `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md[react/prefer-read-only-props]`
 |
 |
