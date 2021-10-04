@@ -1,6 +1,6 @@
 = Changelog
 
-== Unpublished
+== v0.6.0-alpha.2
 
 * Updated `@perfective/eslint-config` to `0.16.0-alpha.2`.
 * Updated `eslint-plugin-react` to `7.26.1`:
