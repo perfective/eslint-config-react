@@ -1,5 +1,11 @@
 = Changelog
 
+== v0.6.0-alpha.1
+
+* Bumped `@perfective/eslint-config` to `0.16.0-alpha.1`.
+* Bumped `eslint-plugin-react` to `7.25.3`.
+
+
 == v0.6.0-alpha
 
 * Updated `@perfective/eslint-config` to `0.16.0-alpha`.
