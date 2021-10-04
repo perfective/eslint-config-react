@@ -1,5 +1,12 @@
 = Changelog
 
+== Unpublished
+
+* Updated `@perfective/eslint-config` to `0.16.0-alpha.2`.
+* Updated `eslint-plugin-react` to `7.26.1`:
+** Enabled `react/no-namespace` as an error.
+
+
 == v0.6.0-alpha.1
 
 * Bumped `@perfective/eslint-config` to `0.16.0-alpha.1`.

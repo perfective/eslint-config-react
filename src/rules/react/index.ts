@@ -58,6 +58,7 @@ export = {
         'react/no-multi-comp': ['error', {
             ignoreStateless: false,
         }],
+        'react/no-namespace': 'error',
         'react/no-redundant-should-component-update': 'error',
         'react/no-render-return-value': 'error',
         // TODO: Consider adding another configuration for Flux/Redux applications
