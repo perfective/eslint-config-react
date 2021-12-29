@@ -44,6 +44,7 @@ export = {
         'react/no-access-state-in-setstate': 'error',
         'react/no-adjacent-inline-elements': 'error',
         'react/no-array-index-key': 'error',
+        'react/no-arrow-function-lifecycle': 'warn',
         'react/no-children-prop': ['error', {
             allowFunctions: false,
         }],
@@ -54,6 +55,7 @@ export = {
         'react/no-did-update-set-state': ['error', 'disallow-in-func'],
         'react/no-direct-mutation-state': 'error',
         'react/no-find-dom-node': 'error',
+        'react/no-invalid-html-attribute': 'warn',
         'react/no-is-mounted': 'error',
         'react/no-multi-comp': ['error', {
             ignoreStateless: false,

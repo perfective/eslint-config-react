@@ -79,6 +79,11 @@ The `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`
 |
 | Error
 
+| `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-arrow-function-lifecycle.md[react/no-arrow-function-lifecycle]`
+|
+| Yes
+| Warning
+
 | `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md[react/no-children-prop]`
 |
 |
@@ -118,6 +123,11 @@ The `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`
 |
 |
 | Error
+
+| `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-invalid-html-attribute.md[react/no-invalid-html-attribute]`
+|
+| Yes
+| Warning
 
 | `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md[react/no-is-mounted]`
 |
