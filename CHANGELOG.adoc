@@ -1,5 +1,18 @@
 = Changelog
 
+== v0.6.0-beta
+
+* Updated `@perfective/eslint-config` to `0.16.0-beta.1`.
++
+* Updated `eslint-plugin-react` to `7.28.0`:
+** Enable `react/no-arrow-function-lifecycle` as a warning;
+** Enable `react/no-invalid-html-attribute` as a warning.
++
+* Updated `eslint-plugin-jsx-a11y` to `6.5.1`.
+* Updated `eslint-plugin-react-hooks` to `4.3.0`.
+* Bumped `eslint-plugin-react-perf` to `3.3.1`.
+
+
 == v0.6.0-alpha.2
 
 * Updated `@perfective/eslint-config` to `0.16.0-alpha.2`.
