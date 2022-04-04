@@ -11,6 +11,7 @@ export = {
         'react/jsx-curly-brace-presence': ['warn', {
             props: 'never',
             children: 'always',
+            propElementValues: 'always',
         }],
         'react/jsx-curly-newline': ['warn', 'never'],
         'react/jsx-curly-spacing': ['warn', {
@@ -47,6 +48,7 @@ export = {
         'react/jsx-key': ['error', {
             checkFragmentShorthand: true,
             checkKeyMustBeforeSpread: true,
+            warnDuplicates: true,
         }],
         // See the 'max-depth' rule
         'react/jsx-max-depth': ['error', {
@@ -113,8 +115,10 @@ export = {
             callbacksLast: true,
             shorthandFirst: true,
             shorthandLast: false,
+            multiline: 'ignore',
             noSortAlphabetically: false,
             reservedFirst: true,
+            locale: 'auto',
         }],
 
         /** @deprecated */

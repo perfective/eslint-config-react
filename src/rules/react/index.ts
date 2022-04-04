@@ -41,6 +41,8 @@ export = {
             // NOTE: Using expression is style-only, as react/no-this-in-sfc is enabled.
             unnamedComponents: 'function-expression',
         }],
+        'react/hook-use-state': 'error',
+        'react/iframe-missing-sandbox': 'error',
         'react/no-access-state-in-setstate': 'error',
         'react/no-adjacent-inline-elements': 'error',
         'react/no-array-index-key': 'error',
