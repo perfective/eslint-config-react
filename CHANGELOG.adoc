@@ -1,6 +1,6 @@
 = Changelog
 
-== v0.8.0-alpha (unpublished)
+== v0.8.0-alpha (next)
 
 * Updated `@perfective/eslint-config` to `0.18.0-alpha`.
 +
