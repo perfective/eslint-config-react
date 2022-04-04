@@ -15,6 +15,11 @@ describe(typescriptEslintNamingConvention, () => {
                     format: ['strictCamelCase'],
                 },
                 {
+                    selector: ['objectLiteralProperty'],
+                    modifiers: ['requiresQuotes'],
+                    format: null,
+                },
+                {
                     selector: ['parameter'],
                     modifiers: ['unused'],
                     format: ['strictCamelCase'],
@@ -53,6 +58,11 @@ describe(typescriptEslintNamingConvention, () => {
                 {
                     selector: ['memberLike', 'variableLike'],
                     format: ['strictCamelCase'],
+                },
+                {
+                    selector: ['objectLiteralProperty'],
+                    modifiers: ['requiresQuotes'],
+                    format: null,
                 },
                 {
                     selector: ['parameter'],
