@@ -71,6 +71,9 @@ export = {
         'react/jsx-no-duplicate-props': ['error', {
             ignoreCase: true,
         }],
+        'react/jsx-no-leaked-render': ['warn', {
+            validStrategies: ['ternary'],
+        }],
         'react/jsx-no-literals': ['error', {
             noStrings: false,
             allowedStrings: [],
