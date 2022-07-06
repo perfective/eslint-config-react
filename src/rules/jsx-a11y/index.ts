@@ -17,6 +17,7 @@ export = {
         'jsx-a11y/aria-props': 'error',
         'jsx-a11y/aria-proptypes': 'error',
         'jsx-a11y/aria-role': ['error', {
+            allowedInvalidRoles: [],
             // eslint-disable-next-line @typescript-eslint/naming-convention -- option name
             ignoreNonDOM: false,
         }],
