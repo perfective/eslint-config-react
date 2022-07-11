@@ -1,8 +1,8 @@
 = Changelog
 
-== v0.8.0-beta (next)
+== v0.8.0-beta.1 (next)
 
-* Updated `@perfective/eslint-config` to `0.18.0-beta`.
+* Updated `@perfective/eslint-config` to `0.18.0-beta.1`.
 +
 * Updated `eslint-plugin-react` to `7.30.1`:
 ** Enabled `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/hook-use-state.md[react/hook-use-state]` as an error;
