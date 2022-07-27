@@ -1,8 +1,8 @@
 # Perfective ESLint Config for React
 
 `@perfective/eslint-config-react` provides
-a [shareable ESLint configuration](https://eslint.org/docs/developer-guide/shareable-configs)
-that is used for the development of the `@perfective` [React](https://reactjs.org) packages.
+a [shareable ESLint configuration](https://eslint.org/docs/latest/developer-guide/shareable-configs)
+for developing the `@perfective` [React](https://reactjs.org) packages.
 This package extends the
 [`@perfective/eslint-config`](https://www.npmjs.com/package/@perfective/eslint-config) package.
 
@@ -52,9 +52,9 @@ npm install --save-dev \
     tslint
 ```
 
-2. Require the configuration in your root `.eslintrc.js` or `.eslintrc.json`.
+2. Require the configuration in your root `.eslintrc.js`.
 
-```js
+```javascript
 module.exports = {
     extends: ['@perfective/eslint-config-react'],
 };
