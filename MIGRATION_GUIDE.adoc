@@ -9,6 +9,29 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
+== From `v0.9.0` to `v0.10.0-alpha` (next)
+
+.Disable new rules in the `.eslintrc.js`
+[source,js]
+----
+module.exports = {
+    extends: [
+        '@perfective/eslint-config-react',
+    ],
+    overrides: [
+        {
+            files: ['*.[jt]s?(x)'],
+            rules: {
+                'unicorn/no-negated-condition': 'off', // auto-fixable
+                'unicorn/no-typeof-undefined': 'off', // auto-fixable
+                'unicorn/refer-set-size': 'off', // auto-fixable
+            },
+        },
+    ],
+};
+----
+
+
 == From `v0.8.0` to `v0.9.0`
 
 .Disable new rules in the `.eslintrc.js`

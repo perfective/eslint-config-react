@@ -1,5 +1,12 @@
 = Changelog
 
+== v0.10.0-alpha (next)
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha[0.20.0-alpha]`.
+* Patched `eslint-plugin-react` to `7.31.11`.
+
+
 == v0.9.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to
