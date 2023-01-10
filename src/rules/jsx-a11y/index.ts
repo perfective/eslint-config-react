@@ -67,6 +67,7 @@ export = {
             nav: ['navigation'],
         }],
         'jsx-a11y/no-static-element-interactions': 'error',
+        'jsx-a11y/prefer-tag-over-role': 'error',
         'jsx-a11y/role-has-required-aria-props': 'error',
         'jsx-a11y/role-supports-aria-props': 'error',
         'jsx-a11y/scope': 'error',

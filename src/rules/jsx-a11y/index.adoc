@@ -157,6 +157,11 @@ accessibility linting rules for JSX elements.
 |
 | Error
 
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/prefer-tag-over-role.md[jsx-a11y/prefer-tag-over-role]`
+|
+|
+| Error
+
 | `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/role-has-required-aria-props.md[jsx-a11y/role-has-required-aria-props]`
 | Yes
 |
