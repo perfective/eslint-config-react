@@ -154,6 +154,11 @@ The `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`
 |
 | Error
 
+| `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-object-type-as-default-prop.md[react/no-object-type-as-default-prop]`
+|
+|
+| Error
+
 | `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md[react/no-redundant-should-component-update]`
 |
 |
@@ -271,6 +276,11 @@ The `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`
 | Warning
 
 | `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md[react/sort-comp]`
+|
+|
+| Error
+
+| `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-default-props.md[react/sort-default-props]`
 |
 |
 | Error
@@ -472,7 +482,8 @@ The `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`
 | `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md[react/jsx-sort-default-props]`
 |
 |
-| Error
+| Off
+4+| Depreacted since `eslint-plugin-react` v7.32.0
 
 | `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md[react/jsx-sort-props]`
 |

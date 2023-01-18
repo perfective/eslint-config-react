@@ -110,9 +110,8 @@ export = {
             explicitSpread: 'enforce',
             exceptions: [],
         }],
-        'react/jsx-sort-default-props': ['error', {
-            ignoreCase: false,
-        }],
+        // Deprecated since eslint-plugin-react v7.32.0
+        'react/jsx-sort-default-props': 'off',
         'react/jsx-sort-props': ['warn', {
             ignoreCase: false,
             callbacksLast: true,

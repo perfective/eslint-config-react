@@ -41,7 +41,9 @@ export = {
             // NOTE: Using expression is style-only, as react/no-this-in-sfc is enabled.
             unnamedComponents: 'function-expression',
         }],
-        'react/hook-use-state': 'error',
+        'react/hook-use-state': ['error', {
+            allowDestructuredState: false,
+        }],
         'react/iframe-missing-sandbox': 'error',
         'react/no-access-state-in-setstate': 'error',
         'react/no-adjacent-inline-elements': 'error',
@@ -63,6 +65,7 @@ export = {
             ignoreStateless: false,
         }],
         'react/no-namespace': 'error',
+        'react/no-object-type-as-default-prop': 'error',
         'react/no-redundant-should-component-update': 'error',
         'react/no-render-return-value': 'error',
         // TODO: Consider adding another configuration for Flux/Redux applications
@@ -139,6 +142,9 @@ export = {
                     'componentWillUnmount',
                 ],
             },
+        }],
+        'react/sort-default-props': ['error', {
+            ignoreCase: false,
         }],
         'react/sort-prop-types': ['error', {
             ignoreCase: false,
