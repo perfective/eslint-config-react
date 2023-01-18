@@ -1,13 +1,18 @@
 = Changelog
 
-== v0.10.0-alpha.1 (next)
+== v0.10.0-alpha.2 (next)
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
-to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha.1[0.20.0-alpha.1]`.
-* Update `eslint-plugin-jsx-a11y` to `6.7.0`:
-** Enabled the `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/prefer-tag-over-role.md[jsx-a11y/prefer-tag-over-role]` rule as an error.
+to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha.2[0.20.0-alpha.2]`.
 +
-* Patched `eslint-plugin-react` to `7.31.11`.
+* Updated `eslint-plugin-react` to `7.32.1`:
+** Enabled the `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-default-props.md[react/sort-default-props]` rule as an error.
+** Enabled the `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-object-type-as-default-prop.md[react/no-object-type-as-default-prop]` rule as an error.
+** Disabled the `react/jsx-sort-detault-props` rule as deprecated.
++
+* Updated `eslint-plugin-jsx-a11y` to `6.7.1`:
+** Enabled the `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-aria-hidden-on-focusable.md[jsx-a11y/no-aria-hidden-on-focusable]` rule as an error.
+** Enabled the `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/prefer-tag-over-role.md[jsx-a11y/prefer-tag-over-role]` rule as an error.
 
 
 == v0.9.0
