@@ -112,6 +112,11 @@ accessibility linting rules for JSX elements.
 |
 | Error
 
+| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-aria-hidden-on-focusable.md[jsx-a11y/no-aria-hidden-on-focusable]`
+|
+|
+| Error
+
 | `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-autofocus.md[jsx-a11y/no-autofocus]`
 | Yes
 |
