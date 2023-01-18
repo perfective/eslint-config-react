@@ -8,7 +8,7 @@ This package extends the
 
 `@perfective/eslint-config-react` uses the following ESLint plugins:
 
-* `link:https://github.com/yannickcr/eslint-plugin-react[eslint-plugin-react]`;
+* `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]`;
 * `link:https://www.npmjs.com/package/eslint-plugin-react-hooks[eslint-plugin-react-hooks]`;
 * `link:https://github.com/correttojs/eslint-plugin-react-hooks-ssr[eslint-plugin-react-hooks-ssr]`;
 * `link:https://github.com/cvazac/eslint-plugin-react-perf[eslint-plugin-react-perf]`;

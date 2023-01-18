@@ -83,7 +83,7 @@ export = {
         'react/no-unstable-nested-components': ['error', {
             allowAsProps: false,
         }],
-        // See: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md#known-issueslimitations
+        // See: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md#known-issueslimitations
         'react/no-unused-prop-types': 'error',
         'react/no-unused-state': 'error',
         'react/no-will-update-set-state': ['error', 'disallow-in-func'],
