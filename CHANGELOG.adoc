@@ -1,11 +1,11 @@
 = Changelog
 
-== v0.10.0-alpha.2 (next)
+== v0.10.0-alpha.3 (next)
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
-to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha.2[0.20.0-alpha.2]`.
+to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-alpha.3[0.20.0-alpha.3]`.
 +
-* Updated `eslint-plugin-react` to `7.32.1`:
+* Updated `eslint-plugin-react` to `7.32.2`:
 ** Enabled the `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-default-props.md[react/sort-default-props]` rule as an error.
 ** Enabled the `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-object-type-as-default-prop.md[react/no-object-type-as-default-prop]` rule as an error.
 ** Disabled the `react/jsx-sort-detault-props` rule as deprecated.
