@@ -1,9 +1,9 @@
 = Changelog
 
-== v0.10.0-beta (next)
+== v0.10.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
-to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0-beta[0.20.0-beta]`.
+to `link:https://github.com/perfective/eslint-config/releases/tag/v0.20.0[0.20.0]`.
 +
 * Updated `eslint-plugin-react` to `7.32.2`:
 ** Enabled the `link:https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-default-props.md[react/sort-default-props]` rule as an error.
