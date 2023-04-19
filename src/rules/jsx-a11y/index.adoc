@@ -1,4 +1,5 @@
 = `jsx-a11y`
+:eslint-jsx-a11y-rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules
 
 The `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y[eslint-plugin-jsx-a11y]` provides
 accessibility linting rules for JSX elements.
@@ -7,182 +8,182 @@ accessibility linting rules for JSX elements.
 |===
 | Rule | Recommended | Fixed | Config
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/accessible-emoji.md[jsx-a11y/accessible-emoji]`
+| `link:{eslint-jsx-a11y-rules}/accessible-emoji.md[jsx-a11y/accessible-emoji]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/alt-text.md[jsx-a11y/alt-text]`
+| `link:{eslint-jsx-a11y-rules}/alt-text.md[jsx-a11y/alt-text]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-has-content.md[jsx-a11y/anchor-has-content]`
+| `link:{eslint-jsx-a11y-rules}/anchor-has-content.md[jsx-a11y/anchor-has-content]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-is-valid.md[jsx-a11y/anchor-is-valid]`
+| `link:{eslint-jsx-a11y-rules}/anchor-is-valid.md[jsx-a11y/anchor-is-valid]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-activedescendant-has-tabindex.md[jsx-a11y/aria-activedescendant-has-tabindex]`
+| `link:{eslint-jsx-a11y-rules}/aria-activedescendant-has-tabindex.md[jsx-a11y/aria-activedescendant-has-tabindex]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-props.md[jsx-a11y/aria-props]`
+| `link:{eslint-jsx-a11y-rules}/aria-props.md[jsx-a11y/aria-props]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-proptypes.md[jsx-a11y/aria-proptypes]`
+| `link:{eslint-jsx-a11y-rules}/aria-proptypes.md[jsx-a11y/aria-proptypes]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-role.md[jsx-a11y/aria-role]`
+| `link:{eslint-jsx-a11y-rules}/aria-role.md[jsx-a11y/aria-role]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/aria-unsupported-elements.md[jsx-a11y/aria-unsupported-elements]`
+| `link:{eslint-jsx-a11y-rules}/aria-unsupported-elements.md[jsx-a11y/aria-unsupported-elements]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/autocomplete-valid.md[jsx-a11y/autocomplete-valid]`
+| `link:{eslint-jsx-a11y-rules}/autocomplete-valid.md[jsx-a11y/autocomplete-valid]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/click-events-have-key-events.md[jsx-a11y/click-events-have-key-events]`
+| `link:{eslint-jsx-a11y-rules}/click-events-have-key-events.md[jsx-a11y/click-events-have-key-events]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/heading-has-content.md[jsx-a11y/heading-has-content]`
+| `link:{eslint-jsx-a11y-rules}/heading-has-content.md[jsx-a11y/heading-has-content]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/html-has-lang.md[jsx-a11y/html-has-lang]`
+| `link:{eslint-jsx-a11y-rules}/html-has-lang.md[jsx-a11y/html-has-lang]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/iframe-has-title.md[jsx-a11y/iframe-has-title]`
+| `link:{eslint-jsx-a11y-rules}/iframe-has-title.md[jsx-a11y/iframe-has-title]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/img-redundant-alt.md[jsx-a11y/img-redundant-alt]`
+| `link:{eslint-jsx-a11y-rules}/img-redundant-alt.md[jsx-a11y/img-redundant-alt]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/interactive-supports-focus.md[jsx-a11y/interactive-supports-focus]`
+| `link:{eslint-jsx-a11y-rules}/interactive-supports-focus.md[jsx-a11y/interactive-supports-focus]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/label-has-associated-control.md[jsx-a11y/label-has-associated-control]`
+| `link:{eslint-jsx-a11y-rules}/label-has-associated-control.md[jsx-a11y/label-has-associated-control]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/lang.md[jsx-a11y/lang]`
+| `link:{eslint-jsx-a11y-rules}/lang.md[jsx-a11y/lang]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/media-has-caption.md[jsx-a11y/media-has-caption]`
+| `link:{eslint-jsx-a11y-rules}/media-has-caption.md[jsx-a11y/media-has-caption]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/mouse-events-have-key-events.md[jsx-a11y/mouse-events-have-key-events]`
+| `link:{eslint-jsx-a11y-rules}/mouse-events-have-key-events.md[jsx-a11y/mouse-events-have-key-events]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-access-key.md[jsx-a11y/no-access-key]`
+| `link:{eslint-jsx-a11y-rules}/no-access-key.md[jsx-a11y/no-access-key]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-aria-hidden-on-focusable.md[jsx-a11y/no-aria-hidden-on-focusable]`
+| `link:{eslint-jsx-a11y-rules}/no-aria-hidden-on-focusable.md[jsx-a11y/no-aria-hidden-on-focusable]`
 |
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-autofocus.md[jsx-a11y/no-autofocus]`
+| `link:{eslint-jsx-a11y-rules}/no-autofocus.md[jsx-a11y/no-autofocus]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-distracting-elements.md[jsx-a11y/no-distracting-elements]`
+| `link:{eslint-jsx-a11y-rules}/no-distracting-elements.md[jsx-a11y/no-distracting-elements]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-interactive-element-to-noninteractive-role.md[jsx-a11y/no-interactive-element-to-noninteractive-role]`
+| `link:{eslint-jsx-a11y-rules}/no-interactive-element-to-noninteractive-role.md[jsx-a11y/no-interactive-element-to-noninteractive-role]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-noninteractive-element-interactions.md[jsx-a11y/no-noninteractive-element-interactions]`
+| `link:{eslint-jsx-a11y-rules}/no-noninteractive-element-interactions.md[jsx-a11y/no-noninteractive-element-interactions]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-noninteractive-element-to-interactive-role.md[jsx-a11y/no-noninteractive-element-to-interactive-role]`
+| `link:{eslint-jsx-a11y-rules}/no-noninteractive-element-to-interactive-role.md[jsx-a11y/no-noninteractive-element-to-interactive-role]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-noninteractive-tabindex.md[jsx-a11y/no-noninteractive-tabindex]`
+| `link:{eslint-jsx-a11y-rules}/no-noninteractive-tabindex.md[jsx-a11y/no-noninteractive-tabindex]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-onchange.md[jsx-a11y/no-onchange]`
+| `link:{eslint-jsx-a11y-rules}/no-onchange.md[jsx-a11y/no-onchange]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-redundant-roles.md[jsx-a11y/no-redundant-roles]`
+| `link:{eslint-jsx-a11y-rules}/no-redundant-roles.md[jsx-a11y/no-redundant-roles]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/no-static-element-interactions.md[jsx-a11y/no-static-element-interactions]`
+| `link:{eslint-jsx-a11y-rules}/no-static-element-interactions.md[jsx-a11y/no-static-element-interactions]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/prefer-tag-over-role.md[jsx-a11y/prefer-tag-over-role]`
+| `link:{eslint-jsx-a11y-rules}/prefer-tag-over-role.md[jsx-a11y/prefer-tag-over-role]`
 |
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/role-has-required-aria-props.md[jsx-a11y/role-has-required-aria-props]`
+| `link:{eslint-jsx-a11y-rules}/role-has-required-aria-props.md[jsx-a11y/role-has-required-aria-props]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/role-supports-aria-props.md[jsx-a11y/role-supports-aria-props]`
+| `link:{eslint-jsx-a11y-rules}/role-supports-aria-props.md[jsx-a11y/role-supports-aria-props]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/scope.md[jsx-a11y/scope]`
+| `link:{eslint-jsx-a11y-rules}/scope.md[jsx-a11y/scope]`
 | Yes
 |
 | Error
 
-| `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules/tabindex-no-positive.md[jsx-a11y/tabindex-no-positive]`
+| `link:{eslint-jsx-a11y-rules}/tabindex-no-positive.md[jsx-a11y/tabindex-no-positive]`
 | Yes
 |
 | Error
