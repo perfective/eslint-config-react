@@ -1,3 +1,5 @@
+import { optionalRule } from '@perfective/eslint-config/config';
+
 export = {
     extends: [
         '@perfective/eslint-config',
@@ -52,9 +54,9 @@ export = {
             files: ['*.@(spec|test).[jt]s?(x)'],
             rules: {
                 // The act() function is available only in testing-library/react
-                'testing-library/no-unnecessary-act': ['error', {
+                ...optionalRule('testing-library/no-unnecessary-act', ['error', {
                     isStrict: true,
-                }],
+                }]),
             },
         },
     ],
