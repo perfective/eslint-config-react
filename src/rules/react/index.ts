@@ -21,6 +21,7 @@ export = {
         'react/destructuring-assignment': ['error', 'never'],
         // This rules is used for "createReactClass", which is used without ES6.
         'react/display-name': ['error', {
+            checkContextObjects: true,
             ignoreTranspilerName: false,
         }],
         'react/forbid-component-props': 'error',
