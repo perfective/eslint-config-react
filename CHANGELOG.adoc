@@ -3,6 +3,24 @@
 :eslint-react-rules: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules
 :eslint-jsx-a11y-rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules
 
+== v0.11.0-alpha (next)
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:{eslint-config-tags}/v0.21.0-beta.3[0.21.0-beta.3]`.
+** Supports TypeScript v5.0.
+** Marked `eslint-plugin-cypress` as an optional peer dependency.
+** Marked `eslint-plugin-jest` as an optional peer dependency.
+** Marked `eslint-plugin-jest-formatting` as a conditionally optional peer dependency:
+*** `eslint-plugin-jest-formatting` must be installed when `eslint-plugin-jest` is installed.
+** Marked `eslint-plugin-jest-dom` as an optional peer dependency.
+** Marked `eslint-plugin-rxjs` as an optional peer dependency.
+** Marked `eslint-plugin-testing-library` as an optional peer dependency.
++
+* Updated `eslint-plugin-react` to `7.33.1`:
+** Required `displayName` in context objects.
+
+To update see the https://github.com/perfective/eslint-config-react/blob/main/MIGRATION_GUIDE.adoc[Migration guide].
+
+
 == v0.10.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
