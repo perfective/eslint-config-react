@@ -48,7 +48,7 @@ export = {
         'react/jsx-key': ['error', {
             checkFragmentShorthand: true,
             checkKeyMustBeforeSpread: true,
-            warnDuplicates: true,
+            warnOnDuplicates: true,
         }],
         // See the 'max-depth' rule
         'react/jsx-max-depth': ['error', {
