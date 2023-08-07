@@ -1,3 +1,3 @@
 module.exports = {
-    extends: ['@perfective/eslint-config'],
+    extends: ['./dist'],
 };
