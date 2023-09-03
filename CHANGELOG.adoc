@@ -1,5 +1,11 @@
 = Changelog
 
+== v0.9.1
+
+* Patched `eslint-plugin-react` to ` 7.31.11`.
+* Fixed `react/jsx-key` config.
+
+
 == v0.9.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to
