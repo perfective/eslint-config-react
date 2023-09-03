@@ -1,6 +1,11 @@
 = Changelog
 
-== v0.8.0 (next)
+== v0.8.1
+
+* Fixed `react/jsx-key` config.
+
+
+== v0.8.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
 to `link:https://github.com/perfective/eslint-config/releases/tag/v0.18.0[0.18.0]`.
