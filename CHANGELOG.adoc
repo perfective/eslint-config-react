@@ -1,5 +1,10 @@
 = Changelog
 
+== v0.10.1
+
+* Fixed `react/jsx-key` config.
+
+
 == v0.10.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
