@@ -3,6 +3,12 @@
 :eslint-react-rules: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules
 :eslint-jsx-a11y-rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules
 
+== v0.12.1
+
+* Patched `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.23.1[0.23.1]`.
+
+
 == v0.12.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]` to `link:{eslint-config-tags}/v0.23.0[0.23.0]`.
