@@ -20,6 +20,11 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 |
 | Error
 
+| `link:{eslint-react-rules}/checked-requires-onchange-or-readonly.md[react/checked-requires-onchange-or-readonly]`
+|
+|
+| Error
+
 | `link:{eslint-react-rules}/default-props-match-prop-types.md[react/default-props-match-prop-types]`
 |
 |

@@ -18,6 +18,7 @@ export = {
         'react/jsx-filename-extension': ['error', {
             allow: 'always',
             extensions: ['.jsx', '.tsx'],
+            ignoreFilesWithoutCode: false,
         }],
         // Deprecated. Use https://eslint.style/rules/jsx/jsx-first-prop-new-line.
         'react/jsx-first-prop-new-line': 'off',
@@ -66,7 +67,9 @@ export = {
             ignoreProps: true,
             noAttributeStrings: false,
         }],
-        'react/jsx-no-script-url': 'error',
+        'react/jsx-no-script-url': ['error', {
+            includeFromSettings: false,
+        }],
         'react/jsx-no-target-blank': ['warn', {
             allowReferrer: false,
             enforceDynamicLinks: 'always',

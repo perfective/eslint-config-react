@@ -16,6 +16,7 @@ export = {
             submit: true,
             reset: true,
         }],
+        'react/checked-requires-onchange-or-readonly': 'error',
         // TODO: This rule does not seem to work with TypeScript
         'react/default-props-match-prop-types': 'error',
         'react/destructuring-assignment': ['error', 'never'],
@@ -79,7 +80,10 @@ export = {
         'react/no-unescaped-entities': ['error', {
             forbid: ['>', '}'],
         }],
-        'react/no-unknown-property': 'warn',
+        'react/no-unknown-property': ['warn', {
+            ignore: [],
+            requireDataLowercase: true,
+        }],
         'react/no-unsafe': 'error',
         'react/no-unstable-nested-components': ['error', {
             allowAsProps: false,
