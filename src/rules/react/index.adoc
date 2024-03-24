@@ -273,8 +273,9 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/self-closing-comp.md[react/self-closing-comp]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-self-closing-comp.
 
 | `link:{eslint-react-rules}/sort-comp.md[react/sort-comp]`
 |
@@ -327,38 +328,45 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/jsx-child-element-spacing.md[react/jsx-child-element-spacing]`
 |
-|
-| Error
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-child-element-spacing.
 
 | `link:{eslint-react-rules}/jsx-closing-bracket-location.md[react/jsx-closing-bracket-location]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-closing-bracket-location.
 
 | `link:{eslint-react-rules}/jsx-closing-tag-location.md[react/jsx-closing-tag-location]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-closing-tag-location.
 
 | `link:{eslint-react-rules}/jsx-curly-brace-presence.md[react/jsx-curly-brace-presence]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-curly-brace-presence.
 
 | `link:{eslint-react-rules}/jsx-curly-newline.md[react/jsx-curly-newline]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-curly-newline.
 
 | `link:{eslint-react-rules}/jsx-curly-spacing.md[react/jsx-curly-spacing]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-curly-spacing.
 
 | `link:{eslint-react-rules}/jsx-equals-spacing.md[react/jsx-equals-spacing]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-equals-spacing.
 
 | `link:{eslint-react-rules}/jsx-filename-extension.md[react/jsx-filename-extension]`
 |
@@ -367,8 +375,9 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/jsx-first-prop-new-line.md[react/jsx-first-prop-new-line]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-first-prop-new-line.
 
 | `link:{eslint-react-rules}/jsx-fragments.md[react/jsx-fragments]`
 |
@@ -382,13 +391,15 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/jsx-indent.md[react/jsx-indent]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-indent.
 
 | `link:{eslint-react-rules}/jsx-indent-props.md[react/jsx-indent-props]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-indent-props.
 
 | `link:{eslint-react-rules}/jsx-key.md[react/jsx-key]`
 |
@@ -402,13 +413,15 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/jsx-max-props-per-line.md[react/jsx-max-props-per-line]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-max-props-per-line.
 
 | `link:{eslint-react-rules}/jsx-newline.md[react/jsx-newline]`
 |
-|
+| Deprecated
 | Off
+4+| Use https://eslint.style/rules/jsx/jsx-newline.
 
 | `link:{eslint-react-rules}/jsx-no-bind.md[react/jsx-no-bind]`
 |
@@ -462,8 +475,9 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/jsx-one-expression-per-line.md[react/jsx-one-expression-per-line]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-one-expression-per-line.
 
 | `link:{eslint-react-rules}/jsx-pascal-case.md[react/jsx-pascal-case]`
 |
@@ -472,8 +486,9 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/jsx-props-no-multi-spaces.md[react/jsx-props-no-multi-spaces]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-props-no-multi-spaces.
 
 | `link:{eslint-react-rules}/jsx-props-no-spreading.md[react/jsx-props-no-spreading]`
 |
@@ -484,22 +499,25 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 |
 |
 | Off
-4+| Depreacted since `eslint-plugin-react` v7.32.0
+4+| Deprecated since eslint-plugin-react v7.32.0. Use `react/sort-default-props`.
 
 | `link:{eslint-react-rules}/jsx-sort-props.md[react/jsx-sort-props]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-sort-props.
 
 | `link:{eslint-react-rules}/jsx-space-before-closing.md[react/jsx-space-before-closing]`
 |
 |
 | Off
+4+| Deprecated since eslint-plugin-react v7.0.0. Use `react/jsx-tag-spacing`.
 
 | `link:{eslint-react-rules}/jsx-tag-spacing.md[react/jsx-tag-spacing]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-tag-spacing.
 
 | `link:{eslint-react-rules}/jsx-uses-react.md[react/jsx-uses-react]`
 |
@@ -513,7 +531,8 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 
 | `link:{eslint-react-rules}/jsx-wrap-multilines.md[react/jsx-wrap-multilines]`
 |
-|
-| Warning
+| Deprecated
+| Off
+4+| Use https://eslint.style/rules/jsx/jsx-wrap-multilines.
 
 |===

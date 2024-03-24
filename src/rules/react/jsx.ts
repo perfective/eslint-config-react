@@ -1,34 +1,26 @@
 export = {
     rules: {
         'react/jsx-boolean-value': ['warn', 'always'],
-        'react/jsx-child-element-spacing': 'error',
-        'react/jsx-closing-bracket-location': ['warn', {
-            selfClosing: 'after-props',
-            nonEmpty: 'after-props',
-        }],
-        'react/jsx-closing-tag-location': 'warn',
-        // See the react/jsx-no-comment-textnodes and react/jsx-no-literals rules
-        'react/jsx-curly-brace-presence': ['warn', {
-            props: 'never',
-            children: 'always',
-            propElementValues: 'always',
-        }],
-        'react/jsx-curly-newline': ['warn', 'never'],
-        'react/jsx-curly-spacing': ['warn', {
-            when: 'never',
-            attributes: {
-                allowMultiline: false,
-            },
-            children: {
-                allowMultiline: false,
-            },
-        }],
-        'react/jsx-equals-spacing': ['warn', 'never'],
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-child-element-spacing.
+        'react/jsx-child-element-spacing': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-closing-bracket-location.
+        'react/jsx-closing-bracket-location': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-closing-tag-location.
+        'react/jsx-closing-tag-location': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-curly-brace-presence.
+        'react/jsx-curly-brace-presence': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-curly-newline.
+        'react/jsx-curly-newline': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-curly-spacing.
+        'react/jsx-curly-spacing': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-equals-spacing.
+        'react/jsx-equals-spacing': 'off',
         'react/jsx-filename-extension': ['error', {
             allow: 'always',
             extensions: ['.jsx', '.tsx'],
         }],
-        'react/jsx-first-prop-new-line': ['warn', 'multiline-multiprop'],
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-first-prop-new-line.
+        'react/jsx-first-prop-new-line': 'off',
         'react/jsx-fragments': ['warn', 'element'],
         'react/jsx-handler-names': ['error', {
             eventHandlerPrefix: 'handle',
@@ -36,15 +28,10 @@ export = {
             checkLocalVariables: true,
             checkInlineFunction: true,
         }],
-        // See the 'indent' and '@typescript-eslint/indent' rules
-        'react/jsx-indent': ['warn', 4, {
-            checkAttributes: true,
-            indentLogicalExpressions: true,
-        }],
-        'react/jsx-indent-props': ['warn', {
-            indentMode: 1,
-            ignoreTernaryOperator: false,
-        }],
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-indent.
+        'react/jsx-indent': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-indent-props.
+        'react/jsx-indent-props': 'off',
         'react/jsx-key': ['error', {
             checkFragmentShorthand: true,
             checkKeyMustBeforeSpread: true,
@@ -54,10 +41,9 @@ export = {
         'react/jsx-max-depth': ['error', {
             max: 4,
         }],
-        'react/jsx-max-props-per-line': ['warn', {
-            maximum: 1,
-            when: 'always',
-        }],
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-max-props-per-line.
+        'react/jsx-max-props-per-line': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-newline.
         'react/jsx-newline': 'off',
         'react/jsx-no-bind': ['error', {
             // eslint-disable-next-line @typescript-eslint/naming-convention -- configuration property
@@ -94,53 +80,29 @@ export = {
         'react/jsx-no-useless-fragment': ['warn', {
             allowExpressions: true,
         }],
-        'react/jsx-one-expression-per-line': ['warn', {
-            allow: 'single-child',
-        }],
-        'react/jsx-pascal-case': ['error', {
-            allowAllCaps: false,
-            allowLeadingUnderscore: false,
-            allowNamespace: false,
-            ignore: [],
-        }],
-        'react/jsx-props-no-multi-spaces': 'warn',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-one-expression-per-line.
+        'react/jsx-one-expression-per-line': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-pascal-case.
+        'react/jsx-pascal-case': 'off',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-props-no-multi-spaces.
+        'react/jsx-props-no-multi-spaces': 'off',
         'react/jsx-props-no-spreading': ['error', {
             html: 'enforce',
             custom: 'enforce',
             explicitSpread: 'enforce',
             exceptions: [],
         }],
-        // Deprecated since eslint-plugin-react v7.32.0
+        // Deprecated since eslint-plugin-react v7.32.0. Use `react/sort-default-props`.
         'react/jsx-sort-default-props': 'off',
-        'react/jsx-sort-props': ['warn', {
-            ignoreCase: false,
-            callbacksLast: true,
-            shorthandFirst: true,
-            shorthandLast: false,
-            multiline: 'ignore',
-            noSortAlphabetically: false,
-            reservedFirst: true,
-            locale: 'auto',
-        }],
-
-        /** @deprecated */
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-sort-props.
+        'react/jsx-sort-props': 'off',
+        // Deprecated since eslint-plugin-react v7.0.0. Use `react/jsx-tag-spacing`.
         'react/jsx-space-before-closing': 'off',
-        'react/jsx-tag-spacing': ['warn', {
-            closingSlash: 'never',
-            beforeSelfClosing: 'always',
-            afterOpening: 'never',
-            beforeClosing: 'never',
-        }],
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-tag-spacing.
+        'react/jsx-tag-spacing': 'off',
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
-        'react/jsx-wrap-multilines': ['warn', {
-            declaration: 'parens-new-line',
-            assignment: 'parens-new-line',
-            return: 'parens-new-line',
-            arrow: 'parens-new-line',
-            condition: 'parens-new-line',
-            logical: 'parens-new-line',
-            prop: 'parens-new-line',
-        }],
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-wrap-multilines.
+        'react/jsx-wrap-multilines': 'off',
     },
 };

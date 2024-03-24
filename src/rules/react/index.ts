@@ -102,6 +102,7 @@ export = {
             allowDecorators: [],
         }],
         'react/require-render-return': 'error',
+        // Deprecated. Use https://eslint.style/rules/jsx/jsx-self-closing-comp.
         'react/self-closing-comp': ['warn', {
             component: true,
             html: true,
