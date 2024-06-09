@@ -37,6 +37,7 @@ npm install --save-dev \
     eslint-plugin-jest-formatting \
     eslint-plugin-jsdoc \
     eslint-plugin-jsx-a11y \
+    eslint-plugin-n \
     eslint-plugin-node \
     eslint-plugin-prefer-arrow \
     eslint-plugin-promise \
