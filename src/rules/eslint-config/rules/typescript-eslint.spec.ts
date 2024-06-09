@@ -1,3 +1,4 @@
+import { describe, expect, it } from '@jest/globals';
 import { TypescriptEslintNamingConvention } from '@perfective/eslint-config/rules';
 
 import { typescriptEslintNamingConvention } from './typescript-eslint';

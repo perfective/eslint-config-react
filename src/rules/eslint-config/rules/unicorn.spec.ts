@@ -1,3 +1,4 @@
+import { describe, expect, it } from '@jest/globals';
 import { UnicornPreventAbbreviations } from '@perfective/eslint-config/rules';
 
 import { unicornPreventAbbreviations } from './unicorn';
