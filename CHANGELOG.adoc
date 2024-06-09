@@ -3,6 +3,18 @@
 :eslint-react-rules: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules
 :eslint-jsx-a11y-rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules
 
+== v0.14.0
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.25.0[0.25.0]`.
+** Added `eslint-plugin-n` support.
+** Deprecated `eslint-plugin-node` (replaced by `eslint-plugin-n`).
+** Upgraded `@typescript-eslint` to `7.12.0` (supports TypeScript v5.4).
++
+* Patched `eslint-plugin-react` to `7.34.2`.
+* Patched `eslint-plugin-react-hooks` to `4.6.2`.
+
+
 == v0.13.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
@@ -11,7 +23,7 @@ to `link:{eslint-config-tags}/v0.24.0[0.24.0]`.
 ** Rules configurations remain the same.
 Only rule https://eslint.style/guide/migration[namespaces] have changed.
 +
-* Updated `eslint-config-react` to `7.34.1`.
+* Updated `eslint-plugin-react` to `7.34.1`.
 ** Enabled the `link:{eslint-react-rules}/checked-requires-onchange-or-readonly.md[react/checked-requires-onchange-or-readonly]`
 rule as an error.
 
