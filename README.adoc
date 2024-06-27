@@ -39,7 +39,7 @@ npm install --save-dev \
     eslint-plugin-jest-formatting \
     eslint-plugin-jsdoc \
     eslint-plugin-jsx-a11y \
-    eslint-plugin-node \
+    eslint-plugin-n \
     eslint-plugin-prefer-arrow \
     eslint-plugin-promise \
     eslint-plugin-react \
@@ -47,6 +47,7 @@ npm install --save-dev \
     eslint-plugin-react-hooks-ssr \
     eslint-plugin-react-perf \
     eslint-plugin-rxjs \
+    eslint-plugin-security \
     eslint-plugin-simple-import-sort \
     eslint-plugin-sonarjs \
     eslint-plugin-testing-library \
