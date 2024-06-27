@@ -6,12 +6,11 @@ import { unicornPreventAbbreviations } from './rules/unicorn';
  */
 export = {
     rules: {
-        '@typescript-eslint/indent': ['warn', 4, {
+        '@stylistic/ts/indent': ['warn', 4, {
+            // TODO: Research more options using https://astexplorer.net
             // eslint-disable-next-line @typescript-eslint/naming-convention -- option name
             SwitchCase: 1,
-            // Use 'react/jsx-indent-props' instead
             ignoredNodes: [
-                'JSXAttribute',
 
                 /**
                  * @workaround https://github.com/typescript-eslint/typescript-eslint/issues/455#issuecomment-580636221
