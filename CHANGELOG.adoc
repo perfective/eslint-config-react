@@ -3,6 +3,21 @@
 :eslint-react-rules: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules
 :eslint-jsx-a11y-rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules
 
+== v0.16.0
+
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.27.1[0.27.1]`.
+** Supports TypeScript v5.6.
++
+* Updated `eslint-plugin-react` to `7.37.2`:
+** Enabled the `link:{eslint-react-rules}/forward-ref-uses-ref.md[react/forward-ref-uses-ref]` rule as an error.
+** Enabled the `link:{eslint-react-rules}/jsx-props-no-spread-multi.md[react/jsx-props-no-spread-multi]` rule
+as an error.
++
+* Upgraded `eslint-plugin-react-hooks` to `5.0.0`.
+* Updated `eslint-plugin-jsx-a11y` to `6.10.2`.
+
+
 == v0.15.1
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`

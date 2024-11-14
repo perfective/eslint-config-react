@@ -25,18 +25,15 @@ npm install --save-dev \
     @perfective/eslint-config-react \
     @babel/eslint-parser \
     @typescript-eslint/eslint-plugin \
-    @typescript-eslint/eslint-plugin-tslint \
     @typescript-eslint/parser \
     eslint \
     eslint-import-resolver-typescript \
     eslint-plugin-array-func \
     eslint-plugin-cypress \
-    eslint-plugin-deprecation \
     eslint-plugin-eslint-comments \
     eslint-plugin-import \
     eslint-plugin-jest \
     eslint-plugin-jest-dom \
-    eslint-plugin-jest-formatting \
     eslint-plugin-jsdoc \
     eslint-plugin-jsx-a11y \
     eslint-plugin-n \
@@ -51,8 +48,7 @@ npm install --save-dev \
     eslint-plugin-simple-import-sort \
     eslint-plugin-sonarjs \
     eslint-plugin-testing-library \
-    eslint-plugin-unicorn \
-    tslint
+    eslint-plugin-unicorn
 ----
 +
 . Require the configuration in your root `.eslintrc.js`.
