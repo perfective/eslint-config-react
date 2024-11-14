@@ -67,6 +67,7 @@ export = {
             ignoreProps: true,
             noAttributeStrings: false,
         }],
+        'react/jsx-props-no-spread-multi': 'error',
         'react/jsx-no-script-url': ['error', {
             includeFromSettings: false,
         }],

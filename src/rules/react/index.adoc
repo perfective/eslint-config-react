@@ -65,6 +65,11 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 |
 | Error
 
+| `link:{eslint-react-rules}/forward-ref-uses-ref.md[react/forward-ref-uses-ref]`
+|
+|
+| Error
+
 | `link:{eslint-react-rules}/function-component-definition.md[react/function-component-definition]`
 |
 |
@@ -454,6 +459,11 @@ The `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]
 | Warning
 
 | `link:{eslint-react-rules}/jsx-no-literals.md[react/jsx-no-literals]`
+|
+|
+| Error
+
+| `link:{eslint-react-rules}/jsx-props-no-spread-multi.md[react/jsx-props-no-spread-multi]`
 |
 |
 | Error

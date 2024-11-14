@@ -38,6 +38,7 @@ export = {
             checkContextTypes: true,
             checkChildContextTypes: true,
         }],
+        'react/forward-ref-uses-ref': 'error',
         'react/function-component-definition': ['warn', {
             namedComponents: 'function-declaration',
             // NOTE: Using expression is style-only, as react/no-this-in-sfc is enabled.
