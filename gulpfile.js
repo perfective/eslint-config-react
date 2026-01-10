@@ -49,6 +49,10 @@ const full = gulp.series(
     }, {}, {
         // Each optional plugin configuration must be in a separate export,
         // so it does not fail when the peer dependency is not installed.
+        './testing-library': {
+            import: './config/testing-library/index.js',
+            types: './config/testing-library/index.d.ts',
+        },
         './typescript-eslint': {
             import: './config/typescript-eslint/index.js',
             types: './config/typescript-eslint/index.d.ts',
@@ -58,6 +62,10 @@ const full = gulp.series(
             types: './config/unicorn/index.d.ts',
         },
     }),
+    perfectiveGulp.file.createJsonFile(
+        './dist/testing-library/package.json',
+        packageJsonContent('testing-library'),
+    ),
     perfectiveGulp.file.createJsonFile(
         './dist/typescript-eslint/package.json',
         packageJsonContent('typescript-eslint'),
