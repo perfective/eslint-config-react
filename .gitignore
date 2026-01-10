@@ -1,5 +1,6 @@
 # Build
 dist
+spec
 *.tsbuildinfo
 
 # Dependencies

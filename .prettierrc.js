@@ -1,3 +1,1 @@
-const perfective = require('@perfective/build/prettier');
-
-module.exports = perfective;
+export { config as default } from '@perfective/build/prettier';

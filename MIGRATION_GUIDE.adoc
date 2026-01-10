@@ -30,7 +30,7 @@ Migration between minor versions follows the same steps:
 ** `jest-formatting/padding-around-expect-groups` (use `jest/padding-around-expect-groups`)
 ** `jest-formatting/padding-around-test-blocks` (use `jest/padding-around-test-blocks`)
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -72,7 +72,7 @@ module.exports = {
 
 == From `v0.15.0` to `v0.15.1`
 
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -97,7 +97,7 @@ module.exports = {
 
 * Remove `eslint-plugin-node` from `devDependencies`, if present.
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -147,7 +147,7 @@ with `@typescript-eslint/no-unnecessary-template-expression`.
 +
 * Add `@jest/globals` to the `devDependencies` for the `jest/prefer-importing-jest-globals` rule.
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -187,7 +187,7 @@ by the https://eslint.style/rules[ESLint Stylistic rules].
 Replace the name of the customized rules with the new rules.
 See Stylistic https://eslint.style/guide/migration[migration] documentation for details.
 +
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -212,7 +212,7 @@ module.exports = {
 
 == From `v0.11.0` to `v0.12.3`
 
-* Disable and gradually enable new rules in the `.eslintrc.js`.
+* Disable and gradually enable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----
@@ -264,7 +264,7 @@ as these dependencies may remain in it and in the `node_modules`.
 if you have any.
 +
 
-* Disable new rules in the `.eslintrc.js`.
+* Disable new rules in the `eslint.config.js`.
 +
 [source,js]
 ----

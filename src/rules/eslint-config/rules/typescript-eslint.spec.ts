@@ -1,5 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import { TypescriptEslintNamingConvention } from '@perfective/eslint-config/rules';
+import { TypescriptEslintNamingConvention } from '@perfective/eslint-config/typescript-eslint';
 
 import { typescriptEslintNamingConvention } from './typescript-eslint';
 

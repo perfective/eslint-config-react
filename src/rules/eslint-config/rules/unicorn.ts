@@ -2,7 +2,7 @@ import {
     UnicornPreventAbbreviationReplacements,
     UnicornPreventAbbreviations,
     unicornPreventAbbreviations as unicornPreventAbbreviationsDefaults,
-} from '@perfective/eslint-config/rules';
+} from '@perfective/eslint-config/unicorn';
 
 export function unicornPreventAbbreviations(
     replacements: UnicornPreventAbbreviationReplacements = {},

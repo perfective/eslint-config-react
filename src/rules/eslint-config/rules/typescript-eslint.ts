@@ -1,7 +1,7 @@
 import {
     TypescriptEslintNamingConvention,
     typescriptEslintNamingConvention as typescriptEslintNamingConventionDefaults,
-} from '@perfective/eslint-config/rules';
+} from '@perfective/eslint-config/typescript-eslint';
 
 export function typescriptEslintNamingConvention(
     extensions: TypescriptEslintNamingConvention[] = [],
