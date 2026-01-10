@@ -4,4 +4,4 @@
 :icons: font
 :sourcedir: ./
 
-include::rules/index.adoc[leveloffset=+1]
+include::config/index.adoc[leveloffset=+1]

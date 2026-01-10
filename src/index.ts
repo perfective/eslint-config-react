@@ -2,12 +2,12 @@ import { Linter } from 'eslint';
 
 import { jestFiles, perfectiveEslintConfig, typescriptFiles } from '@perfective/eslint-config';
 
+import { jsxA11yConfig } from './config/jsx-a11y/jsx-a11y-config';
+import { reactConfig } from './config/react/react-config';
+import { reactHooksConfig } from './config/react-hooks/react-hooks-config';
+import { reactPerfConfig } from './config/react-perf/react-perf-config';
 import { typescriptEslintNamingConvention } from './rules/eslint-config/rules/typescript-eslint';
 import { unicornPreventAbbreviations } from './rules/eslint-config/rules/unicorn';
-import { jsxA11yConfig } from './rules/jsx-a11y/jsx-a11y-config';
-import { reactConfig } from './rules/react/react-config';
-import { reactHooksConfig } from './rules/react-hooks/react-hooks-config';
-import { reactPerfConfig } from './rules/react-perf/react-perf-config';
 
 export function perfectiveEslintReactConfig(configs: Linter.Config[] = []): Linter.Config[] {
     return perfectiveEslintConfig([
