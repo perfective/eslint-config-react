@@ -4,7 +4,7 @@ import * as perfectiveGulp from '@perfective/build/gulp';
 
 function packageJsonContent(name) {
     return {
-        name: `@perfective/eslint-config-angular/${name}`,
+        name: `@perfective/eslint-config-react/${name}`,
         type: 'module',
         module: `../config/${name}/index.js`,
         types: `../config/${name}/index.d.ts`,
@@ -53,10 +53,18 @@ const full = gulp.series(
             import: './config/typescript-eslint/index.js',
             types: './config/typescript-eslint/index.d.ts',
         },
+        './unicorn': {
+            import: './config/unicorn/index.js',
+            types: './config/unicorn/index.d.ts',
+        },
     }),
     perfectiveGulp.file.createJsonFile(
         './dist/typescript-eslint/package.json',
         packageJsonContent('typescript-eslint'),
+    ),
+    perfectiveGulp.file.createJsonFile(
+        './dist/unicorn/package.json',
+        packageJsonContent('unicorn'),
     ),
     perfectiveGulp.copy([
         './LICENSE*',
