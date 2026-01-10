@@ -6,5 +6,4 @@ include::react/index.adoc[leveloffset=+1]
 
 include::jsx-a11y/index.adoc[leveloffset=+1]
 include::react-hooks/index.adoc[leveloffset=+1]
-include::react-hooks-ssr/index.adoc[leveloffset=+1]
 include::react-perf/index.adoc[leveloffset=+1]
