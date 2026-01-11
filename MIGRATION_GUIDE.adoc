@@ -9,6 +9,40 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
+== From `v0.17.0` to `v0.18.0`
+
+* Disable and gradually enable new rules in the `eslint.config.js`:
++
+.eslint.config.js
+[source,javascript]
+----
+import { perfectiveEslintReactConfig } from '@perfective/eslint-config-react';
+
+export default perfectiveEslintReactConfig([
+    // ...Optional plugins configs...
+    {
+        rules: {
+            'react-hooks/component-hook-factories': 'off',
+            'react-hooks/config': 'off',
+            'react-hooks/error-boundaries': 'off',
+            'react-hooks/gating': 'off',
+            'react-hooks/globals': 'off',
+            'react-hooks/immutability': 'off',
+            'react-hooks/incompatible-library': 'off',
+            'react-hooks/preserve-manual-memoization': 'off',
+            'react-hooks/purity': 'off',
+            'react-hooks/refs': 'off',
+            'react-hooks/set-state-in-effect': 'off',
+            'react-hooks/set-state-in-render': 'off',
+            'react-hooks/static-components': 'off',
+            'react-hooks/unsupported-syntax': 'off',
+            'react-hooks/use-memo': 'off',
+        },
+    },
+]);
+----
+
+
 == From `v0.16.0` to `v0.17.0`
 
 * *Migrate to ESLint v9 with flat configs*:

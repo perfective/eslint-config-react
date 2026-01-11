@@ -1,7 +1,31 @@
 = Changelog
 :eslint-config-tags: https://github.com/perfective/eslint-config/releases/tag
 :eslint-react-rules: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules
+:eslint-react-hooks-rules: https://react.dev/reference/eslint-plugin-react-hooks/lints
 :eslint-jsx-a11y-rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules
+
+== v0.18.0
+
+* Upgraded `eslint-plugin-react-hooks` to `7.0.1`:
+** Enabled the `link:{eslint-react-hooks-rules}/component-hook-factories[react-hooks/component-hook-factories]` rule
+as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/config[react-hooks/config]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/error-boundaries[react-hooks/error-boundaries]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/gating[react-hooks/gating]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/globals[react-hooks/globals]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/immutability[react-hooks/immutability]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/incompatible-library[react-hooks/incompatible-library]` rule
+as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/preserve-manual-memoization[react-hooks/preserve-manual-memoization]`
+rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/purity[react-hooks/purity]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/refs[react-hooks/refs]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/set-state-in-effect[react-hooks/set-state-in-effect]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/set-state-in-render[react-hooks/set-state-in-render]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/static-components[react-hooks/static-components]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/unsupported-syntax[react-hooks/unsupported-syntax]` rule as an error.
+** Enabled the `link:{eslint-react-hooks-rules}/use-memo[react-hooks/use-memo]` rule as an error.
+
 
 == v0.17.0
 
