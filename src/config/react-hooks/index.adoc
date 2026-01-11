@@ -15,6 +15,90 @@ enforces the React https://reactjs.org/docs/hooks-rules.html[Rules of Hooks].
 | `react-hooks/exhaustive-deps`
 | Yes
 |
-| Warning
+| Error
+
+|===
+
+== React compiler rules
+
+[cols="~,1,1,1"]
+|===
+| Rule | Recommended | Fixed | Config
+
+
+| `react-hooks/component-hook-factories`
+|
+|
+| Error
+
+| `react-hooks/config`
+|
+|
+| Error
+
+| `react-hooks/error-boundaries`
+|
+|
+| Error
+
+| `react-hooks/gating`
+|
+|
+| Error
+
+| `react-hooks/globals`
+|
+|
+| Error
+
+| `react-hooks/immutability`
+|
+|
+| Error
+
+| `react-hooks/incompatible-library`
+|
+|
+| Error
+
+| `react-hooks/preserve-manual-memoization`
+|
+|
+| Error
+
+| `react-hooks/purity`
+|
+|
+| Error
+
+| `react-hooks/refs`
+|
+|
+| Error
+
+| `react-hooks/set-state-in-effect`
+|
+|
+| Error
+
+| `react-hooks/set-state-in-render`
+|
+|
+| Error
+
+| `react-hooks/static-components`
+|
+|
+| Error
+
+| `react-hooks/unsupported-syntax`
+|
+|
+| Error
+
+| `react-hooks/use-memo`
+|
+|
+| Error
 
 |===
