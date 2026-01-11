@@ -3,6 +3,47 @@
 :eslint-react-rules: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules
 :eslint-jsx-a11y-rules: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/main/docs/rules
 
+== v0.17.0
+
+* **Migrated to ESLint v9 with flat configs**.
+* **Migrated to ES modules**.
++
+* Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`
+to `link:{eslint-config-tags}/v0.34.1[0.34.1]`:
++
+** Supports TypeScript v5.9.
++
+** Updated `eslint-plugin-react-hooks` to `5.2.0`.
+** Patched `eslint-plugin-react-perf` to `3.3.3`.
+** Removed `eslint-plugin-react-hooks-ssr` as unmaintained.
++
+* Moved `typescriptEslintNamingConvention` from `@perfective/eslint-config-react/rules`
+to `@perfective/eslint-config-react/typescript-eslint.
+* Moved `unicornPreventAbbreviations` from `@perfective/eslint-config-react/rules`
+to `@perfective/eslint-config-react/unicorn.
++
+* Removed `@perfective/eslint-config/rules` re-exports from `@perfective/eslint-config`:
++
+** `cypressImportNoExtraneousDependencies`,
+** `ImportNoExtraneousDependencies`,
+** `importNoExtraneousDependencies`,
+** `jestImportNoExtraneousDependencies`,
+** `jsImportNoExtraneousDependencies`,
+** `SimpleImportSortImports`,
+** `simpleImportSortImports`,
+** `TypescriptEslintNamingConvention`,
+** `TypescriptEslintNamingConventionFormat`,
+** `TypescriptEslintNamingConventionGroupSelector`,
+** `TypescriptEslintNamingConventionIndividualSelector`,
+** `TypescriptEslintNamingConventionSelector`,
+** `TypescriptEslintNamingConventionUnderscore`,
+** `UnicornPreventAbbreviationReplacements`,
+** `UnicornPreventAbbreviations`,
+** `unicornPreventAbbreviations`.
++
+Import directly from `@perfective/eslint-config` instead, if needed.
+
+
 == v0.16.0
 
 * Updated `link:https://github.com/perfective/eslint-config[@perfective/eslint-config]`

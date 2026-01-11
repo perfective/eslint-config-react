@@ -2,75 +2,99 @@
 
 `@perfective/eslint-config-react` provides
 a https://eslint.org/docs/latest/developer-guide/shareable-configs[shareable ESLint configuration]
-for developing the `@perfective` https://reactjs.org[React] packages.
-This package extends the
-`link:https://www.npmjs.com/package/@perfective/eslint-config[@perfective/eslint-config]` package.
+for https://reactjs.org[React] development.
 
-`@perfective/eslint-config-react` uses the following ESLint plugins:
+`@perfective/eslint-config-react` adds the following ESLint plugins to the
+`link:https://www.npmjs.com/package/@perfective/eslint-config[@perfective/eslint-config]` configuration:
 
 * `link:https://github.com/jsx-eslint/eslint-plugin-react[eslint-plugin-react]`;
 * `link:https://www.npmjs.com/package/eslint-plugin-react-hooks[eslint-plugin-react-hooks]`;
-* `link:https://github.com/correttojs/eslint-plugin-react-hooks-ssr[eslint-plugin-react-hooks-ssr]`;
 * `link:https://github.com/cvazac/eslint-plugin-react-perf[eslint-plugin-react-perf]`;
 * `link:https://github.com/jsx-eslint/eslint-plugin-jsx-a11y[eslint-plugin-jsx-a11y]`.
 
 
 == Setup
 
-. Require `@perfective/eslint-config-react` and its peer dependencies as dev dependencies:
+. Require `@perfective/eslint-config-react`:
++
+[source,bash]
+----
+npm install --save-dev @perfective/eslint-config-react
+----
++
+Required peer dependencies are installed automatically.
++
+. Import `perfectiveEslintReactConfig` to `eslint.config.js`:
++
+[source,javascript]
+----
+import { perfectiveEslintReactConfig } from '@perfective/eslint-config-react';
+
+export default perfectiveEslintReactConfig();
+----
++
+. _Optional_ Install optional peer dependencies to add tool-specific linting rules.
 +
 [source,bash]
 ----
 npm install --save-dev \
-    @perfective/eslint-config-react \
-    @babel/eslint-parser \
-    @typescript-eslint/eslint-plugin \
-    @typescript-eslint/parser \
-    eslint \
-    eslint-import-resolver-typescript \
-    eslint-plugin-array-func \
     eslint-plugin-cypress \
-    eslint-plugin-eslint-comments \
-    eslint-plugin-import \
     eslint-plugin-jest \
     eslint-plugin-jest-dom \
-    eslint-plugin-jsdoc \
-    eslint-plugin-jsx-a11y \
-    eslint-plugin-n \
-    eslint-plugin-prefer-arrow \
-    eslint-plugin-promise \
-    eslint-plugin-react \
-    eslint-plugin-react-hooks \
-    eslint-plugin-react-hooks-ssr \
-    eslint-plugin-react-perf \
-    eslint-plugin-rxjs \
-    eslint-plugin-security \
-    eslint-plugin-simple-import-sort \
-    eslint-plugin-sonarjs \
-    eslint-plugin-testing-library \
-    eslint-plugin-unicorn
+    eslint-plugin-rxjs-x \
+    eslint-plugin-testing-library
 ----
 +
-. Require the configuration in your root `eslint.config.js`.
+Import configurations to `eslint.config.js`.
 +
 [source,javascript]
 ----
-module.exports = {
-    extends: ['@perfective/eslint-config-react'],
-}
+import { perfectiveEslintReactConfig } from '@perfective/eslint-config-react';
+
+// Optional dependencies.
+import { cypressConfig } from '@perfective/eslint-config/cypress';
+import { jestConfig, jestTypescriptConfig } from '@perfective/eslint-config/jest';
+import { jestDomConfig } from '@perfective/eslint-config/jest-dom';
+import { rxjsConfig } from '@perfective/eslint-config/rxjs';
+import { testingLibraryConfig } from '@perfective/eslint-config-react/testing-library';
+
+export default perfectiveEslintReactConfig([
+    cypressConfig,
+    jestConfig,
+    jestTypescriptConfig,
+    jestDomConfig,
+    rxjsConfig,
+    testingLibraryConfig,
+]);
 ----
++
+NOTE: `*.d.ts` files and `dist` directories are ignored by the configuration.
+`node_modules` and dot-files are ignored by the `eslint`.
+If more directories or file types need to be ignored, see the
+`link:https://eslint.org/docs/latest/use/configure/ignore#the-eslintignore-file[.eslintignore]` file docs.
 
 
-== Rules Configuration Extension Functions
+== Packages
 
-This package re-exports
-https://github.com/perfective/eslint-config#rules-configuration-extension-functions[rules configuration functions],
-including overrides with additional React customizations:
+The following is the list of available packages and their exports.
 
-* `typescriptEslintNamingConvention(extensions)`;
-* `unicornPreventAbbreviations(replacements, options)`.
+=== `@perfective/eslint-config-react`
 
+* `perfectiveEslintReactConfig(configs: Linter.Config[] = []): Linter.Config[]`
+— creates a list of flat configs.
 
-== Roadmap
+=== `@perfective/eslint-config-react/typescript-eslint`
 
-* Research more ESLint React plugins.
+* `typescriptEslintNamingConvention(extensions: TypescriptEslintNamingConvention[] = []): TypescriptEslintNamingConvention[]`
+— creates a React-compatible configuration with the given extensions
+for the `@typescript-eslint/naming-convention` rule.
+
+=== `@perfective/eslint-config-react/testing-library`
+
+* `testingLibraryConfig(files: Glob[] = jestFiles): Linter.Config`
+— creates a flat config for `eslint-plugin-testing-library` for a given list of files globs.
+
+=== `@perfective/eslint-config-react/unicorn`
+
+* `unicornPreventAbbreviations(replacements: UnicornPreventAbbreviationReplacements = {}, options: Partial<Pick<UnicornPreventAbbreviations, 'checkProperties'>> = {}): UnicornPreventAbbreviations`
+— adds React-specific abbreviations for the `unicorn/prevent-abbreviations` rule.

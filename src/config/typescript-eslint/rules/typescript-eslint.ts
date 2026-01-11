@@ -3,6 +3,10 @@ import {
     typescriptEslintNamingConvention as typescriptEslintNamingConventionDefaults,
 } from '@perfective/eslint-config/typescript-eslint';
 
+/**
+ * Creates a React-compatible configuration with the given extensions
+ * for the `@typescript-eslint/naming-convention` rule.
+ */
 export function typescriptEslintNamingConvention(
     extensions: TypescriptEslintNamingConvention[] = [],
 ): TypescriptEslintNamingConvention[] {

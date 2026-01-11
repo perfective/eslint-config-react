@@ -9,6 +9,11 @@ import { reactPerfConfig } from './react-perf/react-perf-config';
 import { typescriptEslintNamingConvention } from './typescript-eslint/rules/typescript-eslint';
 import { unicornPreventAbbreviations } from './unicorn/rules/unicorn';
 
+/**
+ * Creates a list of flat configs.
+ *
+ * @since v0.17.0
+ */
 export function perfectiveEslintReactConfig(configs: Linter.Config[] = []): Linter.Config[] {
     return perfectiveEslintConfig([
         jsxA11yConfig,

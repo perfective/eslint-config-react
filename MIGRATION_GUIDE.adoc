@@ -9,6 +9,169 @@ Migration between minor versions follows the same steps:
 ** fix errors or check auto-fixes of warnings;
 ** check for the regressions.
 
+== From `v0.16.0` to `v0.17.0`
+
+* *Migrate to ESLint v9 with flat configs*:
++
+** Rename `eslint.config.js` into `eslint.config.js`.
++
+If your project does not use ESM by default,
+rename `eslint.config.js` into `eslint.config.mjs`.
++
+** Update `eslint.config.js` to use ES `import` and the new flat config structure:
++
+.Before
+[source,javascript]
+----
+module.exports = {
+    extends: [
+        '@perfective/eslint-config-react',
+    ],
+}
+----
++
+.After
+[source,javascript]
+----
+import { perfectiveEslintReactConfig } from '@perfective/eslint-config-react';
+// Optional dependencies.
+import { cypressConfig } from '@perfective/eslint-config/cypress';
+import { jestConfig, jestTypescriptConfig } from '@perfective/eslint-config/jest';
+import { jestDomConfig } from '@perfective/eslint-config/jest-dom';
+import { rxjsConfig } from '@perfective/eslint-config/rxjs';
+import { testingLibraryConfig } from '@perfective/eslint-config-react/testing-library';
+
+export default perfectiveEslintReactConfig([
+    cypressConfig,
+    jestConfig,
+    jestTypescriptConfig,
+    jestDomConfig,
+    rxjsConfig,
+    testingLibraryConfig,
+]);
+----
++
+* *Update peer dependencies*:
++
+_If explicitly configured in `package.json`_
++
+** Remove obsolete peer dependencies:
+*** `@babel/eslint-parser`
+*** `@typescript-eslint/eslint-plugin`
+(replaced by `typescript-eslint`)
+*** `@typescript-eslint/parser`
+*** `eslint-plugin-eslint-comments`
+(replaced by `@eslint-community/eslint-plugin-eslint-comments`)
+*** `eslint-plugin-react-hooks-ssr`
+*** `eslint-plugin-rxjs`
+(replaced by `eslint-plugin-rxjsr-x`)
+*** `eslint-plugin-sonarjs`
++
+** Update customized rules (_if present_).
++
+For example, change `rxjs/ban-observables` to `rxjs-x/ban-observables`.
++
+* *Update imports and rules configuration*:
++
+** All configs are now functions.
+** Rules functions from `@perfective/eslint-config-react/rules` are moved into the corresponding config packages.
+** `typescriptEslintNamingConvention` is moved from `@perfective/eslint-config-react/rules`
+to `@perfective/eslint-config-react/typescript-eslint`.
++
+* *Import the following functions directly from `@perfective/eslint-config`* (if used):
++
+** `cypressImportNoExtraneousDependencies`
+** `ImportNoExtraneousDependencies`
+** `importNoExtraneousDependencies`
+** `jestImportNoExtraneousDependencies`
+** `jsImportNoExtraneousDependencies`
+** `SimpleImportSortImports`
+** `simpleImportSortImports`
+** `TypescriptEslintNamingConvention`
+** `TypescriptEslintNamingConventionFormat`
+** `TypescriptEslintNamingConventionGroupSelector`
+** `TypescriptEslintNamingConventionIndividualSelector`
+** `TypescriptEslintNamingConventionSelector`
+** `TypescriptEslintNamingConventionUnderscore`
+** `UnicornPreventAbbreviationReplacements`
+** `UnicornPreventAbbreviations`
+** `unicornPreventAbbreviations`
++
+* *Disable and gradually enable new rules*:
++
+.eslint.config.js
+[source,javascript]
+----
+import { perfectiveEslintReactConfig } from '@perfective/eslint-config-react';
+
+export default perfectiveEslintReactConfig([
+    // ...Optional plugins configs...
+    {
+        rules: {
+            // From @perfective/eslint-config v0.28-v0.34
+            'no-useless-assignment': 'off',
+            'no-unassigned-vars': 'off',
+            '@typescript-eslint/no-misused-spread': 'off',
+            '@typescript-eslint/no-unnecessary-type-conversion': 'off',
+            '@typescript-eslint/no-unused-private-class-members': 'off',
+            '@typescript-eslint/no-useless-default-assignment': 'off',
+            'jsdoc/escape-inline-tags': 'off',
+            'jsdoc/prefer-import-tag': 'off',
+            'jsdoc/reject-any-type': 'off',
+            'jsdoc/reject-function-type': 'off',
+            'jsdoc/require-next-description': 'off',
+            'jsdoc/require-next-type': 'off',
+            'jsdoc/require-rejects': 'off',
+            'jsdoc/require-throws-description': 'off',
+            'jsdoc/require-throws-type': 'off',
+            'jsdoc/require-yields-description': 'off',
+            'jsdoc/require-yields-type': 'off',
+            'jsdoc/ts-method-signature-style': 'off',
+            'jsdoc/ts-no-empty-object-type': 'off',
+            'jsdoc/ts-no-unnecessary-template-expression': 'off',
+            'jsdoc/ts-prefer-function-type': 'off',
+            'jsdoc/type-formatting': 'off',
+            'n/no-top-level-await': 'off',
+            'promise/prefer-catch': 'off',
+            'unicorn/consistent-assert': 'off',
+            'unicorn/consistent-date-clone': 'off',
+            'unicorn/no-accessor-recursion': 'off',
+            'unicorn/no-instanceof-builtins': 'off',
+            'unicorn/no-named-default': 'off',
+            'unicorn/no-unnecessary-array-flat-depth': 'off',
+            'unicorn/no-unnecessary-array-splice-count': 'off',
+            'unicorn/no-useless-error-capture-stack-trace': 'off',
+            'unicorn/prefer-class-fields': 'off',
+            'unicorn/prefer-import-meta-properties': 'off',
+            'unicorn/require-module-specifiers': 'off',
+
+            // If eslint-plugin-cypress is used
+            'cypress/no-xpath': 'off',
+
+            // If eslint-plugin-jest is used
+            'jest/no-error-equal': 'off',
+            'jest/no-unnecessary-assertion': 'off',
+            'jest/no-unneeded-async-expect-function': 'off',
+            'jest/prefer-ending-with-an-expect': 'off',
+            'jest/prefer-mock-return-shorthand': 'off',
+            'jest/prefer-to-have-been-called': 'off',
+            'jest/prefer-to-have-been-called-times': 'off',
+            'jest/valid-expect-with-promise': 'off',
+            'jest/valid-mock-module-path': 'off',
+
+            // If eslint-plugin-rxjs-x is used
+            'rxjs-x/no-sharereplay-before-takeuntil': 'off',
+            'rxjs-x/no-unnecessary-collection': 'off',
+
+            // If eslint-plugin-testing-library is used
+            'testing-library/no-test-id-queries': 'off',
+            'testing-library/prefer-user-event-setup': 'off',
+        },
+    },
+]);
+----
+
+
 == From `v0.15.1` to `v0.16.0`
 
 * Remove obsolete peer dependencies:

@@ -4,6 +4,9 @@ import {
     unicornPreventAbbreviations as unicornPreventAbbreviationsDefaults,
 } from '@perfective/eslint-config/unicorn';
 
+/**
+ * Adds React-specific abbreviations for the `unicorn/prevent-abbreviations` rule.
+ */
 export function unicornPreventAbbreviations(
     replacements: UnicornPreventAbbreviationReplacements = {},
     options: Partial<Pick<UnicornPreventAbbreviations, 'checkProperties'>> = {},
